@@ -166,12 +166,20 @@ items:
       - items/coins/gold_coin
 
   gold_coin_pile:
-    display_name: Pile de pièce d'or
+    display_name: Pile de pièces d'or
     resource:
       material: PAPER
       generate: true
       textures: 
       - items/coins/gold_coin_pile
+
+  gold_coin_bundle:
+    display_name: Sac de pièces d'or
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+      - items/coins/gold_coin_bundle
 
   emerald_coin:
     display_name: Pièce en emeraude
@@ -182,7 +190,7 @@ items:
       - items/coins/emerald_coin
 
   emerald_coin_pile:
-    display_name: Pile de pièce en emeraude
+    display_name: Pile de pièces en emeraude
     resource:
       material: PAPER
       generate: true
