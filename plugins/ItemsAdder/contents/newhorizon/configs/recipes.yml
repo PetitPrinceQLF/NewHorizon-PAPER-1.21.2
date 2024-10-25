@@ -771,6 +771,30 @@ recipes:
 
 #Coins
 
+    gold_coin_bundle:
+      permission: player
+      enabled: true
+      pattern:
+        - GGG
+        - GGG
+        - GGG
+      ingredients:
+        G: newhorizon:gold_coin_pile
+      result:
+        item: newhorizon:gold_coin_bundle
+        amount: 1
+
+    gold_coin_pile_2:
+      permission: player
+      enabled: true
+      pattern:
+        - G
+      ingredients:
+        G: newhorizon:gold_coin_bundle
+      result:
+        item: newhorizon:gold_coin_pile
+        amount: 9
+
     gold_coin_pile:
       permission: player
       enabled: true
