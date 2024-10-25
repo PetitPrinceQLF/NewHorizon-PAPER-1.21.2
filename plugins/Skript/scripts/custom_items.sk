@@ -5,60 +5,60 @@ command /customitems [<text>] [<player>]:
 	permission: admin
 	trigger:
 		if arg-1 is "mcpet.pug":
-			give player 1 paper named "&fCarlin" with custom model data 10123 with lore "&f"
+			give player 1 paper named "&fCarlin" with custom model data 10125 with lore "&f"
 
 		if arg-1 is "mcpet.capybara_mount":
-			give player 1 paper named "&fCapybara" with custom model data 10123 with lore "&f"
+			give player 1 paper named "&fCapybara" with custom model data 10125 with lore "&f"
 
 		if arg-1 is "mcpet.horse_pegasus":
-			give player 1 paper named "&fPegasus" with custom model data 10123 with lore "&f"
+			give player 1 paper named "&fPegasus" with custom model data 10125 with lore "&f"
 
 		if arg-1 is "mcpet.horse_spartan":
-			give player 1 paper named "&fCheval Spartiate" with custom model data 10123 with lore "&f"
+			give player 1 paper named "&fCheval Spartiate" with custom model data 10125 with lore "&f"
 
 		if arg-1 is "mcpet.kitsune_normal":
-			give player 1 paper named "&fKitsune" with custom model data 10123 with lore "&f"
+			give player 1 paper named "&fKitsune" with custom model data 10125 with lore "&f"
 
 		if arg-1 is "mcpet.phantom_ghost":
-			give player 1 paper named "&fFantôme" with custom model data 10123 with lore "&f"
+			give player 1 paper named "&fFantôme" with custom model data 10125 with lore "&f"
 
 		if arg-1 is "mcpet.phoenix_flame":
-			give player 1 paper named "&fPhoenix" with custom model data 10123 with lore "&f"
+			give player 1 paper named "&fPhoenix" with custom model data 10125 with lore "&f"
 
 
 on rightclick:
 
 # pets.pug
-    if player's tool is paper named "&fCarlin" with custom model data 10123:
-        remove 1 of paper named "&fCarlin" with custom model data 10123 from player's inventory
+    if player's tool is paper named "&fCarlin" with custom model data 10125:
+        remove 1 of paper named "&fCarlin" with custom model data 10125 from player's inventory
         execute console command "lp user %player% permission set mcpet.pug"
 
 # mcpet.capybara_mount
-    if player's tool is paper named "&fCapybara" with custom model data 10123:
-        remove 1 of paper named "&fCapybara" with custom model data 10123 from player's inventory
+    if player's tool is paper named "&fCapybara" with custom model data 10125:
+        remove 1 of paper named "&fCapybara" with custom model data 10125 from player's inventory
         execute console command "lp user %player% permission set mcpet.capybara_mount"
 
 # mcpet.horse_pegasus
-    if player's tool is paper named "&fPegasus" with custom model data 10123:
-        remove 1 of paper named "&fPegasus" with custom model data 10123 from player's inventory
+    if player's tool is paper named "&fPegasus" with custom model data 10125:
+        remove 1 of paper named "&fPegasus" with custom model data 10125 from player's inventory
         execute console command "lp user %player% permission set mcpet.horse_pegasus"
 
 # mcpet.horse_spartan
-    if player's tool is paper named "&fCheval Spartiate" with custom model data 10123:
-        remove 1 of paper named "&fCheval Spartiate" with custom model data 10123 from player's inventory
+    if player's tool is paper named "&fCheval Spartiate" with custom model data 10125:
+        remove 1 of paper named "&fCheval Spartiate" with custom model data 10125 from player's inventory
         execute console command "lp user %player% permission set mcpet.horse_spartan"
 
 # mcpet.kitsune_normal
-    if player's tool is paper named "&fKitsune" with custom model data 10123:
-        remove 1 of paper named "&fKitsune" with custom model data 10123 from player's inventory
+    if player's tool is paper named "&fKitsune" with custom model data 10125:
+        remove 1 of paper named "&fKitsune" with custom model data 10125 from player's inventory
         execute console command "lp user %player% permission set mcpet.kitsune_normal"
 
 # mcpet.phantom_ghost
-    if player's tool is paper named "&fFantôme" with custom model data 10123:
-        remove 1 of paper named "&fFantôme" with custom model data 10123 from player's inventory
+    if player's tool is paper named "&fFantôme" with custom model data 10125:
+        remove 1 of paper named "&fFantôme" with custom model data 10125 from player's inventory
         execute console command "lp user %player% permission set mcpet.phantom_ghost"
 
 # mcpet.phoenix_flame
-    if player's tool is paper named "&fPhoenix" with custom model data 10123:
-        remove 1 of paper named "&fPhoenix" with custom model data 10123 from player's inventory
+    if player's tool is paper named "&fPhoenix" with custom model data 10125:
+        remove 1 of paper named "&fPhoenix" with custom model data 10125 from player's inventory
         execute console command "lp user %player% permission set mcpet.phoenix_flame"
