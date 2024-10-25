@@ -25,7 +25,7 @@ Icon:
 Skins:
   Horse_Spartan:
     MythicMob: Horse_Spartan
-    Permission: skin.horse_spartan
+    Permission: mcpet.skin.horse_spartan
     Icon:
       Material: BRICK
       CustomModelData: 2524
@@ -34,7 +34,7 @@ Skins:
       - §fGet your pet Spartan Horse!
   Horse_Unicorn:
     MythicMob: Horse_Unicorn
-    Permission: skin.horse_unicorn
+    Permission: mcpet.skin.horse_unicorn
     Icon:
       Material: BRICK
       CustomModelData: 2525
@@ -43,7 +43,7 @@ Skins:
       - §fGet your pet Unicorn!
   Horse_Glacial:
     MythicMob: Horse_Glacial
-    Permission: skin.horse_glacial
+    Permission: mcpet.skin.horse_glacial
     Icon:
       Material: BRICK
       CustomModelData: 2521
@@ -52,7 +52,7 @@ Skins:
       - §fGet your pet Glacial Horse!
   Horse_Magma:
     MythicMob: Horse_Magma
-    Permission: skin.horse_magma
+    Permission: mcpet.skin.horse_magma
     Icon:
       Material: BRICK
       CustomModelData: 2522

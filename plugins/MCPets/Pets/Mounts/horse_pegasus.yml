@@ -1,6 +1,6 @@
 Id: Horse_Pegasus
 MythicMob: Horse_Pegasus
-Permission: skin.horse_pegasus
+Permission: mcpet.horse_pegasus
 Mountable: true
 MountType: flying
 Distance: 6
