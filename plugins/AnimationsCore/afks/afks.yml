@@ -1,0 +1,4 @@
+animations:
+  waiting:
+    mm-id: join-warp_pipe
+    permission: "animcore.afk.warp_pipe"

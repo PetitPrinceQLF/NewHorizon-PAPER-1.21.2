@@ -1,0 +1,19 @@
+Id: common
+DisplayName: ':offset_-48::pets:'
+IconName: §x§9§9§c§c§0§0Commun
+Icon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3955
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":[{"text":"Commun","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#99CC00","bold":false}]}'
+    item-name: '{"text":"","extra":["MCPetsCategory;common"]}'
+    custom-model-data: 121
+    custom: H4sIAAAAAAAA/wXBQQ6AIAwEwI0n6NUHkgY2yqEtARKjr3dGAIH0TVvaGmfC0RvOwV2qbl4x31LDLDwhuxrX0EqI87lj9i8c+AFp+C5qRAAAAA==
+Pets:
+- cubee-good
+- Pug
+DefaultCategory: false
+ExcludedCategories: []

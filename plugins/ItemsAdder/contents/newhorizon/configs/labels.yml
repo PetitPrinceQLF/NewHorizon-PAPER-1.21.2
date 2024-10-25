@@ -1,0 +1,156 @@
+info:
+  namespace: newhorizon
+  
+font_images:
+
+
+
+#Chat
+
+  error:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/chat/error.png"
+    scale_ratio: 7
+    y_position: 7
+
+  succes:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/chat/succes.png"
+    scale_ratio: 7
+    y_position: 7
+
+  info:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/chat/info.png"
+    scale_ratio: 7
+    y_position: 7
+
+
+
+#Others
+
+  right_click:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/others/right_click.png"
+    scale_ratio: 9
+    y_position: 8
+
+  left_click:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/others/left_click.png"
+    scale_ratio: 9
+    y_position: 8
+
+
+#rarity
+
+  common:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/rarity/common.png"
+    scale_ratio: 9
+    y_position: 8
+
+  uncommon:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/rarity/uncommon.png"
+    scale_ratio: 9
+    y_position: 8
+
+  rare:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/rarity/rare.png"
+    scale_ratio: 9
+    y_position: 8
+
+  epic:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/rarity/epic.png"
+    scale_ratio: 9
+    y_position: 8
+
+
+#Tags
+
+  aquatic:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/tags/aquatic.png"
+    scale_ratio: 9
+    y_position: 8
+
+  food:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/tags/food.png"
+    scale_ratio: 9
+    y_position: 8
+
+  tool:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/tags/tool.png"
+    scale_ratio: 9
+    y_position: 8
+
+  end:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/tags/end.png"
+    scale_ratio: 9
+    y_position: 8
+
+  nether:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/tags/nether.png"
+    scale_ratio: 9
+    y_position: 8
+
+  fourniture:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/tags/fourniture.png"
+    scale_ratio: 9
+    y_position: 8
+
+#Ranks
+
+  admin:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/ranks/admin.png"
+    scale_ratio: 9
+    y_position: 8
+
+  player:
+    permission: "admin"
+    show_in_gui: true
+    suggest_in_command: true
+    path: "labels/ranks/player.png"
+    scale_ratio: 9
+    y_position: 8

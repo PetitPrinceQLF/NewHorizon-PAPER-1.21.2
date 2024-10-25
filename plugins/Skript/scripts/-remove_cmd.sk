@@ -1,0 +1,217 @@
+#======================#
+#       RemoveCMD      #
+#======================#
+
+on command:
+	if command is "deop":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event				
+	if command contains ":":
+		message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+		cancel event			
+	if command is "pl":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "plugins":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "plugin":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "bukkit:help":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "bukkit:pl":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "bukkit:?":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "?":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "ver":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "version":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "bukkit:plugin":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "bukkit:plugins":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event		
+	if command is "bukkit:me":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "minecraft:me":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "bukkit:ver":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event
+	if command is "bukkit:version":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event				
+	if command is "bukkit:?":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "/calc":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event			
+		else:
+			stop
+	if command is "/calculate":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event			
+		else:
+			stop
+	if command is "worldedit:/calc":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event			
+		else:
+			stop
+	if command is "worldedit:calculate":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event			
+		else:
+			stop
+	if command is "worldedit:/solve":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event			
+		else:
+			stop
+	if command is "worldedit:/eval":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event			
+		else:
+			stop
+	if command is "worldedit:/evaluate":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event			
+		else:
+			stop
+	if command is "/eval":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event	
+		else:
+			stop
+	if command is "/evaluate":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event	
+		else:
+			stop
+	if command is "/solve":
+		if {WorldEditProtection} is "true":
+			if player doesn't have permission "admin":
+				message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+				cancel event	
+		else:
+			stop
+	if command is "about":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "icanhasbukkit":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event	
+	if command is "bukkit:about":
+		if player doesn't have permission "admin":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+			cancel event				
+#ver <tab>
+command /ver <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+#/? <tab>
+command /? <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+#version <tab>
+command /version <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+#about <tab>
+command /about <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+#bukkit:about <tab>
+command /bukkit:about <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+#Bukkit:ver <tab>
+command /bukkit:ver <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+#Bukkit:version <tab>
+command /bukkit:version <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+#/ <tab>
+command / <text>:
+	trigger:
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"
+#// <tab>
+command /// <text>:
+	trigger:
+		if arg 1 is "[<tab>]":
+			message "&fฒ Vous n'avez pas les permissions pour faire ça !"

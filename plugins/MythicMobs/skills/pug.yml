@@ -1,0 +1,84 @@
+###############################################
+##     Developed by Elo106 and Pashjn        ##
+##VOXEL SPAWNS https://discord.gg/BypTbqTk   ##
+###############################################
+
+VS_PUG_SIT:
+  Cooldown: 1
+  TargetConditions:
+  - holding{m=BONE} castinstead VS_PUG_PLAY
+  - holding{m=LEAD} castinstead VS_PUG_SCRATCH
+  Conditions:
+  - hastag{t=sitting} castinstead VS_PUG_STAND
+  - offgcd
+  Skills:
+  - gcd{ticks=21} @self
+  - potion{type=SLOW;d=100000;l=42;p=false;force=true} @self
+  - addtag{t=sitting} @self
+  - defaultstate{t=IDLE;s=sit_idle} @self
+  - state{s=sitdown} @self
+
+VS_PUG_STAND:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=21} @self
+  - state{s=getup} @self
+  - defaultstate{t=IDLE;s=idle} @self
+  - potion{type=SLOW;d=1;l=43;p=false;force=true} @self
+  - removetag{t=sitting} @self
+
+VS_PUG_PLAY:
+  Conditions:
+  - offgcd
+  - hastag{t=sitting} false
+  Skills:
+  - CancelEvent
+  - gcd{ticks=85} @self
+  - potion{type=SLOW;d=85;l=42;p=false;force=true} @self
+  - state{s=playwithme} @self
+  - delay 20
+  - sound{s=entity.wolf.pant;p=1.2} @self
+  - delay 15
+  - sound{s=entity.wolf.pant;p=1.5} @self
+  - delay 20
+  - sound{s=entity.wolf.pant;p=1.2} @self
+
+VS_PUG_SCRATCH:
+  Conditions:
+  - offgcd
+  Skills:
+  - CancelEvent
+  - gcd{ticks=120} @self
+  - potion{type=SLOW;d=120;l=42;p=false;force=true} @self
+  - state{s=ass_slide} @self
+
+VS_PUG_BARK:
+  Conditions:
+  - offgcd
+  - hastag{t=sitting} false
+  Skills:
+  - gcd{ticks=21} @self
+  - potion{type=SLOW;d=21;l=42;p=false;force=true} @self
+  - state{s=bark} @self
+  - delay 5
+  - sound{s=newhorizon:newhorizon.pug_bark;p=1.2} @self
+  - delay 8
+  - sound{s=newhorizon:newhorizon.pug_bark;p=1.2} @self
+
+VS_PUG_CURIOUS:
+  Conditions:
+  - offgcd
+  - hastag{t=sitting} false
+  - playerwithin{d=3} true
+  Skills:
+  - gcd{ticks=81} @self
+  - potion{type=SLOW;d=81;l=42;p=false;force=true} @self
+  - state{s=lookylooky} @self
+
+VS_PUG_BYE:
+  Skills:
+  - state{s=despawn} @self
+  - delay 80
+  - model{mid=voxelspawns_pug;r=true} @self
+  - remove @self

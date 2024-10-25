@@ -1,0 +1,39 @@
+{
+    "variants": {
+      "distance=1": [{
+        "model": "minecraft:block/spruce_leaves_1",
+        "weight": 1
+      }
+    ],
+      "distance=2": [{
+        "model": "minecraft:block/spruce_leaves_1",
+        "weight": 1
+      }
+    ],
+      "distance=3": [{
+        "model": "minecraft:block/spruce_leaves_2",
+        "weight": 1
+      }
+    ],
+      "distance=4": [{
+        "model": "minecraft:block/spruce_leaves_3",
+        "weight": 1
+      }
+     ],
+      "distance=5": [{
+        "model": "minecraft:block/spruce_leaves_4",
+        "weight": 1
+      }
+    ],
+      "distance=6": [{
+        "model": "minecraft:block/spruce_leaves_5",
+        "weight": 1
+      }
+    ],
+      "distance=7": [{
+        "model": "minecraft:block/spruce_leaves_6",
+        "weight": 1
+      }
+    ]
+    }
+}

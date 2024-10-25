@@ -1,0 +1,39 @@
+alligator_baby:
+  Type: PIG
+  Display: ''
+  Health: 16
+  Damage: 0
+  AIGoalSelectors:
+  - clear
+  - randomstroll
+  - float
+  AITargetSelectors:
+  - clear
+  Options:
+    Collidable: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    Silent: true
+    PreventRenaming: false
+    PreventLeashing: false
+    AlwaysShowName: false
+    PreventSunburn: true
+    KnockbackResistance: 0.2
+  Modules:
+    ThreatTable: true
+  Skills:
+  ### Applies the model when spawned.
+  - model{mid=alligator_baby;n=name} @self ~onSpawn
+  - model{mid=alligator_baby;n=name} @self ~onLoad
+  
+  ### Hurt Skills & Sounds
+  - sound{s=entity.zoglin.hurt;p=1.9;v=0.3} @self ~onDamaged
+  
+  ### Death Skills & Sounds
+  - sound{s=entity.ender_dragon.growl;p=1.9;v=0.1} @self ~onDeath
+  
+  ### Interaction Skills
+  - randomskill{s=alligator_baby_munch_parse;sync=true;cd=2} ~onInteract
+
+  Drops:
+  - alligator_drops

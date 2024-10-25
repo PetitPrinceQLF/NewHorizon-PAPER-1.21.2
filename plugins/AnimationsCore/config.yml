@@ -1,0 +1,47 @@
+# config.yml
+# More to come soon!
+
+permission-message: "You don't have permission to use this command."
+
+defaultjoin: "defaultJoinAnimation"
+defaultleave: "defaultLeaveAnimation"
+defaultdeath: "defaultDeathAnimation"
+defaultrespawn: "defaultRespawnAnimation"
+defaultafk: "defaultAfkAnimation"
+defaultgui: "defaultGuiAnimation"
+defaultTeleportOut: "teleportOutDefault"
+defaultTeleportIn: "teleportInDefault"
+defaultKill: "killDefault"
+
+database:
+  enabled: false
+  host: localhost
+  port: 3306
+  name: minecraft
+  username: root
+  password: password
+
+
+# PLEASE READ - use [player] in the commands for animationscore to understand where in the command the TARGET TELEPORING PLAYER is.
+# "/tp player1 player2" for player1 to be selected please ensure your trigger has [player] where player1 would be
+# If no [player] is present. it will take the command sender as the target player.
+TeleportAnimations:
+  enabled: true
+  triggers:
+    - "/tp [player]"
+    - "/tp _"
+
+# This camera is currently being used for the Join event
+Camera:
+  enabled: true
+  transition: true
+  forwards: 10
+  height: 5
+
+# Config option to switch the event trigger for the join animation
+trigger-on-join-event: true
+# This delay works for both resource pack event and join event from above. to disable just put 0
+JoinAnimDelay: 5
+
+# AFK Time in ticks (20 ticks per second)
+AFKTimeout: 6000

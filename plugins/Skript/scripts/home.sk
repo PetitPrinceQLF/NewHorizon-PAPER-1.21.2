@@ -1,0 +1,43 @@
+# Skript pour gérer un home par joueur
+command /sethome:
+    trigger:
+        set {Home::%player's uuid%} to the player's location
+        send "&f &2Ton home a été défini avec succès !"
+
+command /home:
+    trigger:
+
+        if {Home::%player's uuid%} is set:
+            set {Teleports::%player%} to "Home"
+            if {Teleports::%player%} is "Home":
+                set {Teleporting::%player%} to true
+                delete {Teleports::%player%%executor%}
+                if {Teleporting::%player%} is set:
+                    play sound "entity.enderman.teleport" with volume 1 and pitch 1.5 to player
+                    play sound "entity.enderman.teleport" with volume 3 and pitch 1 at player
+                    apply blindness to player for 4 seconds
+                    send action bar "&f &bTéléportation dans 3s" to player
+                    wait 1 second
+                if {Teleporting::%player%} is set:
+                    send action bar "&f &bTéléportation dans 2s" to player
+                    wait 1 second
+                if {Teleporting::%player%} is set:
+                    send action bar "&f &bTéléportation dans 1s" to player
+                    wait 1 second
+                if {Teleporting::%player%} is set:
+                    send action bar "&f &bTéléportation" to player
+                    teleport player to {Home::%player's uuid%}
+                    delete {Teleporting::%player%}
+                    wait 10 tick
+                    play sound "item.totem.use" with volume 0.5 and pitch 1 at player
+                    draw 20 totem of undying at location 1 meter above player with offset vector(0, 0, 0) with extra 0.5
+                    wait 0.3 second
+                    draw 50 totem of undying at location 1 meter above player with offset vector(0, 0, 0) with extra 0.7
+                    draw 50 poof at location 1 meter above player with offset vector(0, 0, 0) with extra 0.7
+        else:
+            send "&f &cTu n'as pas encore défini de home. Utilise /sethome pour en définir un."
+
+on player move:
+    if {Teleporting::%player%} is set:
+        delete {Teleporting::%player%}
+        send action bar "&f &cTéléportation annulée" to player

@@ -1,0 +1,161 @@
+settings:
+  ignore_inventories:
+    enabled: false
+    any_custom: true
+    by_title:
+    - "*Backpack*"
+
+customizations:
+
+
+  common_tag:
+    enabled: true
+    rules:
+      rarity: COMMON
+      is_vanilla_item: true
+    changes:
+      lore_insert_json:
+        index: 0
+        lines:
+        - ''
+  uncommon_tag:
+    enabled: true
+    rules:
+      rarity: UNCOMMON
+      is_vanilla_item: true
+    changes:
+      lore_insert_json:
+        index: 0
+        lines:
+        - ''
+  rare_tag:
+    enabled: true
+    rules:
+      rarity: RARE
+      is_vanilla_item: true
+    changes:
+      lore_insert_json:
+        index: 0
+        lines:
+        - ''
+  epic_tag:
+    enabled: true
+    rules:
+      rarity: EPIC
+      is_vanilla_item: true
+    changes:
+      lore_insert_json:
+        index: 0
+        lines:
+        - ''
+
+  nether_tag:
+    enabled: true
+    rules:
+      material_wildcards:
+        - "ANCIENT_DEBRIS"
+        - "BASALT"
+        - "BLACKSTONE"
+        - "QUARTZ_BLOCK"
+        - "CHAIN"
+        - "CRYING_OBSIDIAN"
+        - "GLOWSTONE"
+        - "GLOWSTONE_DUST"
+        - "NETHER_GOLD_ORE"
+        - "NETHER_BRICKS"
+        - "WEEPING_VINES"
+        - "MAGMA_BLOCK"
+        - "SOUL_SAND"
+        - "SOUL_SOIL"
+        - "SHROOMLIGHT"
+        - "SOUL_TORCH"
+        - "SOUL_CAMPFIRE"
+        - "SOUL_LANTERN"
+        - "BLAZE_ROD"
+        - "BLAZE_POWDER"
+        - "MAGMA_CREAM"
+        - "GHAST_TEAR"
+        - "*BASALT*"
+        - "*BLACKSTONE*"
+        - "*CRIMSON*"
+        - "*NETHER*"
+        - "*WARPED*"
+        - "TWISTING*"
+        - "*QUARTZ*"
+      is_vanilla_item: true
+    changes:
+      lore_insert_json:
+        index: 1
+        lines:
+        - '' # Nether
+
+  end_tag:
+    enabled: true
+    rules:
+      material_wildcards:
+        - "END_*"
+        - "PURPUR_*"
+        - "CHORUS_*"
+        - "*_CHORUS_*"
+        - "DRAGON_*"
+        - "ENDER_CHEST"
+        - "END_STONE"
+        - "ELYTRA"
+        - "ENDER_PEARL"
+        - "ENDER_EYE"
+        - "*SHULKER*"
+      is_vanilla_item: true
+    changes:
+      lore_insert_json:
+        index: 1
+        lines:
+        - '' # The End
+
+  aquatic_tag:
+    enabled: true
+    rules:
+      material_wildcards:
+        - "*CORAL*"
+        - "*KELP*"
+        - "SEAGRASS"
+        - "SEA_PICKLE"
+        - "LILY_PAD"
+        - "SEA_LANTERN"
+        - "CONDUIT"
+        - "SCUTE"
+        - "HEART_OF_THE_SEA"
+        - "NAUTILUS_SHELL"
+        - "*SPONGE"
+        - "*PRISMARINE*"
+        - "*TURTLE*"
+      is_vanilla_item: true
+    changes:
+      lore_insert_json:
+        index: 1
+        lines:
+        - '' # Aquatic
+
+  tool:
+    enabled: true
+    rules:
+      material_wildcards:
+        - "*_AXE"
+        - "*_PICKAXE"
+        - "*_HOE"
+        - "*_SWORD"
+      is_vanilla_item: true
+    changes:
+      lore_insert_json:
+        index: 1
+        lines:
+        - '' # Tool
+
+  food:
+    rules:
+      is_vanilla_item: true
+      edible: true
+    changes:
+      lore_insert_json:
+        index: 100
+        lines:
+        - ''

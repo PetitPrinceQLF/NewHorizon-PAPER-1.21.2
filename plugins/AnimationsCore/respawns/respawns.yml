@@ -1,0 +1,9 @@
+animations:
+  whitehole:
+    mm-id: respawn-whitehole
+    duration: 40
+    permission: "animcore.respawn.whitehole"
+  fall:
+    mm-id: respawn-fall
+    duration: 60
+    permission: "animcore.respawn.fall"

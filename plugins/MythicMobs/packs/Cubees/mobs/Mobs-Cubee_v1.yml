@@ -1,0 +1,340 @@
+cubee-evil:
+  Type: bee
+  Display: '§4Evil Cubee'
+  Health: 20
+  Damage: 1
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Persistent: false
+    Invincible: true
+    LockPitch: true
+    FollowRange: 20
+    MovementSpeed: 0.27
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoowner 7
+  #- 2 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Disguise: armor_stand
+  Skills:
+  # cubee-evil
+  - setvar{var=target.cubeetype;value="evil";type=STRING;save=true;delay=2} @Owner ~onSpawn
+  - unsetvar{var=target.cubeetype} @Owner ~onDespawn
+  - setvar{var=caster.cubeemodel;value="evil";type=STRING;save=true} @Self ~onSpawn
+  # 
+  - animation{a=walk} @self ~onMove
+  # Follow player's direction
+  - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:3
+  # Model Apply
+  - model{usestatemechanic=true;mid=cubee-evil;n=false} @self ~onSpawn
+  # Follow player's location
+  - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
+  # Sfx
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
+  - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
+  # Pet
+  - skill{s=Cubees-Interaction} @self ~onInteract
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onInteract
+  # Death
+  - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
+  - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
+  # Particles
+  - effect:particles{particle=redstone;a=2;hs=0.3;vs=0.3;y=1;s=0.1125} @self ~onTimer:10 ?stringEQ{val1="<placeholder.Cubees-EjectParticles>";val2="true"}
+  
+
+cubee-fire:
+  Type: bee
+  Display: '§cFire Cubee'
+  Health: 20
+  Damage: 1
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Persistent: false
+    Invincible: true
+    LockPitch: true
+    FollowRange: 20
+    MovementSpeed: 0.27
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoowner 7
+  #- 2 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Disguise: armor_stand
+  Skills:
+  # cubee-fire
+  - setvar{var=target.cubeetype;value="fire";type=STRING;save=true;delay=2} @Owner ~onSpawn
+  - unsetvar{var=target.cubeetype} @Owner ~onDespawn
+  - setvar{var=caster.cubeemodel;value="fire";type=STRING;save=true} @Self ~onSpawn
+  - animation{a=walk} @self ~onMove
+  - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:3
+  - model{usestatemechanic=true;mid=cubee-fire;n=false} @self ~onSpawn
+  - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
+  - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
+  - skill{s=Cubees-Interaction} @self ~onInteract
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onInteract
+  - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
+  - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
+  - effect:particles{particle=small_flame;a=2;hs=0.3;vs=0.3;y=1;s=0.1125} @self ~onTimer:10 ?stringEQ{val1="<placeholder.Cubees-EjectParticles>";val2="true"}
+
+cubee-good:
+  Type: bee
+  Display: '§fGood Cubee'
+  Health: 20
+  Damage: 1
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Persistent: false
+    Invincible: true
+    LockPitch: true
+    FollowRange: 20
+    MovementSpeed: 0.27
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoowner 7
+  #- 2 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Disguise: armor_stand
+  Skills:
+  # cubee-good
+  - setvar{var=target.cubeetype;value="good";type=STRING;save=true;delay=2} @Owner ~onSpawn
+  - unsetvar{var=target.cubeetype} @Owner ~onDespawn
+  - setvar{var=caster.cubeemodel;value="good";type=STRING;save=true} @Self ~onSpawn
+  - animation{a=walk} @self ~onMove
+  - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:3
+  - model{usestatemechanic=true;mid=cubee-good;n=false} @self ~onSpawn
+  - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
+  - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
+  - skill{s=Cubees-Interaction} @self ~onInteract
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onInteract
+  - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
+  - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
+  - effect:particles{particle=end_rod;a=1;hs=0.3;vs=0.3;y=1;s=0.1125} @self ~onTimer:10 ?stringEQ{val1="<placeholder.Cubees-EjectParticles>";val2="true"}
+#Heal 2 coeurs au joueur proche de 5 blocs
+  - heal{a=4} @PlayersInRadius{r=5} ~onTimer:400
+
+
+cubee-grass:
+  Type: bee
+  Display: '§aGrass Cubee'
+  Health: 20
+  Damage: 1
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Persistent: false
+    Invincible: true
+    LockPitch: true
+    FollowRange: 20
+    MovementSpeed: 0.27
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoowner 7
+  #- 2 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Disguise: armor_stand
+  Skills:
+  # cubee-grass
+  - setvar{var=target.cubeetype;value="grass";type=STRING;save=true;delay=2} @Owner ~onSpawn
+  - unsetvar{var=target.cubeetype} @Owner ~onDespawn
+  - setvar{var=caster.cubeemodel;value="grass";type=STRING;save=true} @Self ~onSpawn
+  - animation{a=walk} @self ~onMove
+  - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:3
+  - model{usestatemechanic=true;mid=cubee-grass;n=false} @self ~onSpawn
+  - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
+  - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
+  - skill{s=Cubees-Interaction} @self ~onInteract
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onInteract
+  - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
+  - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
+  - effect:particles{particle=spore_blossom_air;a=1;hs=0.3;vs=0.3;y=1;s=0.1125} @self ~onTimer:10 ?stringEQ{val1="<placeholder.Cubees-EjectParticles>";val2="true"}
+
+cubee-skeleton:
+  Type: bee
+  Display: '§fSkeleton Cubee'
+  Health: 20
+  Damage: 1
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Persistent: false
+    Invincible: true
+    LockPitch: true
+    FollowRange: 20
+    MovementSpeed: 0.27
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoowner 7
+  #- 2 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Disguise: armor_stand
+  Skills:
+  # cubee-skeleton
+  - setvar{var=target.cubeetype;value="skeleton";type=STRING;save=true;delay=2} @Owner ~onSpawn
+  - unsetvar{var=target.cubeetype} @Owner ~onDespawn
+  - setvar{var=caster.cubeemodel;value="skeleton";type=STRING;save=true} @Self ~onSpawn
+  - animation{a=walk} @self ~onMove
+  - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:3
+  - model{usestatemechanic=true;mid=cubee-skeleton;n=false} @self ~onSpawn
+  - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
+  - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
+  - skill{s=Cubees-Interaction} @self ~onInteract
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onInteract
+  - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
+  - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
+  - effect:particles{particle=spell;a=2;hs=0.3;vs=0.3;y=1;s=0.1125} @self ~onTimer:10 ?stringEQ{val1="<placeholder.Cubees-EjectParticles>";val2="true"}
+
+cubee-stone:
+  Type: bee
+  Display: '§7Stone Cubee'
+  Health: 20
+  Damage: 1
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Persistent: false
+    Invincible: true
+    LockPitch: true
+    FollowRange: 20
+    MovementSpeed: 0.27
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoowner 7
+  #- 2 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Disguise: armor_stand
+  Skills:
+  # cubee-stone
+  - setvar{var=target.cubeetype;value="stone";type=STRING;save=true;delay=2} @Owner ~onSpawn
+  - unsetvar{var=target.cubeetype} @Owner ~onDespawn
+  - setvar{var=caster.cubeemodel;value="stone";type=STRING;save=true} @Self ~onSpawn
+  - animation{a=walk} @self ~onMove
+  - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:3
+  - model{usestatemechanic=true;mid=cubee-stone;n=false} @self ~onSpawn
+  - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
+  - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
+  - skill{s=Cubees-Interaction} @self ~onInteract
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onInteract
+  - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
+  - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
+  - effect:particles{particle=falling_dust;a=1;hs=0.3;vs=0.3;y=1;s=0.1125} @self ~onTimer:10 ?stringEQ{val1="<placeholder.Cubees-EjectParticles>";val2="true"}
+
+cubee-tnt:
+  Type: bee
+  Display: '§cTNT Cubee'
+  Health: 20
+  Damage: 1
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Persistent: false
+    Invincible: true
+    LockPitch: true
+    FollowRange: 20
+    MovementSpeed: 0.27
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoowner 7
+  #- 2 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Disguise: armor_stand
+  Skills:
+  # cubee-tnt
+  - setvar{var=target.cubeetype;value="tnt";type=STRING;save=true;delay=2} @Owner ~onSpawn
+  - unsetvar{var=target.cubeetype} @Owner ~onDespawn
+  - setvar{var=caster.cubeemodel;value="tnt";type=STRING;save=true} @Self ~onSpawn
+  - animation{a=walk} @self ~onMove
+  - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:3
+  - model{usestatemechanic=true;mid=cubee-tnt;n=false} @self ~onSpawn
+  - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
+  - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
+  - skill{s=Cubees-Interaction} @self ~onInteract
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onInteract
+  - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
+  - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
+  - effect:particles{particle=explosion_normal;a=2;hs=0.3;vs=0.3;y=1;s=0.1125} @self ~onTimer:50 ?stringEQ{val1="<placeholder.Cubees-EjectParticles>";val2="true"}
+
+cubee-water:
+  Type: bee
+  Display: '§bWater Cubee'
+  Health: 20
+  Damage: 1
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Persistent: false
+    Invincible: true
+    LockPitch: true
+    FollowRange: 20
+    MovementSpeed: 0.27
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoowner 7
+  #- 2 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Disguise: armor_stand
+  Skills:
+  # cubee-water
+  - setvar{var=target.cubeetype;value="water";type=STRING;save=true;delay=2} @Owner ~onSpawn
+  - unsetvar{var=target.cubeetype} @Owner ~onDespawn
+  - setvar{var=caster.cubeemodel;value="water";type=STRING;save=true} @Self ~onSpawn
+  - animation{a=walk} @self ~onMove
+  - sudoskill{s=[ - setrotation{relative=false;yaw=<caster.l.yaw>;pitch="<caster.l.pitch>"} @trigger ];cat=true} @owner{conditions=[ - crouching false]} ~onTimer:3
+  - model{usestatemechanic=true;mid=cubee-water;n=false} @self ~onSpawn
+  - skill{s=Cubees-Setting-Movement} @self ~onTimer:1
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onTimer:200
+  - sound{s=entity.allay.hurt;p=1.0;v=1.0} @self ~onDamaged
+  - skill{s=Cubees-Interaction} @self ~onInteract
+  - sound{s=entity.allay.ambient;p=1.0;v=1.0} @self ~onInteract
+  - sound{s=entity.allay.death;p=1.0;v=1.0} @self ~onDeath
+  - potion{t=SLOW_FALLING;d=99999;l=-1;p=false} @self ~onSpawn
+  - effect:particles{particle=dolphin;a=2;hs=0.3;vs=0.3;y=1;s=0.1125} @self ~onTimer:10 ?stringEQ{val1="<placeholder.Cubees-EjectParticles>";val2="true"}
+

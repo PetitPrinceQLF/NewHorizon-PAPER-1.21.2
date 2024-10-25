@@ -1,0 +1,84 @@
+menu_title: ':offset_-48::main_menu:'
+open_command: menu
+size: 45
+update_interval: 1
+items:
+
+  'quit':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 0
+    display_name: '&4Quitter'
+    left_click_commands:
+      - "[close]"
+
+  'help':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 8
+    display_name: '&bWiki'
+#    lore:
+#      - ""
+#      - '&fLa forge est un endroit où vous pouvez'
+#      - '&fcombiner différents ingrédients pour'
+#      - '&fcréer des armes et des outils puissants.'
+#      - ""
+
+  'worlds':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 9
+      - 10
+      - 11
+      - 12
+      - 18
+      - 19
+      - 20
+      - 21
+      - 27
+      - 28
+      - 29
+      - 30
+    display_name: '&bMondes'
+    lore:
+      - '&fInformation:'
+      - ' &f∙ Accédez au menu des mondes.'
+      - ""
+      - '&f - Pour accéder'
+    left_click_commands:
+      - "[openguimenu] worlds"
+
+  'profile':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 31
+      - 32
+      - 33
+    
+      - 35
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+    display_name: '&6Profile'
+    lore:
+      - '&fInformation:'
+      - ' &f∙ Accédez à vos informations.'
+      - ""
+      - '&f - Pour accéder'
+    left_click_commands:
+      - "[player] profile"
+  'profile_head':
+    material: head-%player_name%
+    model_data: 2
+    slots:
+      - 34
+    display_name: '&6Profile'
+    lore:
+      - '&fInformation:'
+      - ' &f∙ Accédez à vos informations.'
+      - ""
+      - '&f - Pour accéder'
+    left_click_commands:
+      - "[player] profile"

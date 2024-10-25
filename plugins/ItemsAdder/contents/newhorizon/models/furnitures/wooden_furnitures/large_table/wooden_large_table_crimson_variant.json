@@ -1,0 +1,8 @@
+{
+	"credit": "MadewithBlockbench",
+	"parent": "newhorizon:furnitures/wooden_furnitures/large_table/wooden_large_table_oak_variant",
+	"textures": {
+		"10": "newhorizon:furnitures/wooden_furnitures/large_table/wooden_large_table_crimson_variant",
+		"particle": "newhorizon:furnitures/wooden_furnitures/large_table/wooden_large_table_crimson_variant"
+	}
+}

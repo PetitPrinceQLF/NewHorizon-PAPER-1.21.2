@@ -1,0 +1,820 @@
+info:
+  namespace: newhorizon
+recipes:
+  crafting_table:
+    wooden_chair_acacia_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: ACACIA_PLANKS
+      result:
+        item: newhorizon:wooden_chair_acacia_variant
+        amount: 2
+    wooden_chair_birch_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: BIRCH_PLANKS
+      result:
+        item: newhorizon:wooden_chair_birch_variant
+        amount: 2
+    wooden_chair_cherry_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: CHERRY_PLANKS
+      result:
+        item: newhorizon:wooden_chair_cherry_variant
+        amount: 2
+    wooden_chair_crimson_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: CRIMSON_PLANKS
+      result:
+        item: newhorizon:wooden_chair_crimson_variant
+        amount: 2
+    wooden_chair_dark_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: DARK_OAK_PLANKS
+      result:
+        item: newhorizon:wooden_chair_dark_oak_variant
+        amount: 2
+    wooden_chair_jungle_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: JUNGLE_PLANKS
+      result:
+        item: newhorizon:wooden_chair_jungle_variant
+        amount: 2
+    wooden_chair_mangrove_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: MANGROVE_PLANKS
+      result:
+        item: newhorizon:wooden_chair_mangrove_variant
+        amount: 2
+    wooden_chair_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: OAK_PLANKS
+      result:
+        item: newhorizon:wooden_chair_oak_variant
+        amount: 2
+    wooden_chair_spruce_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: SPRUCE_PLANKS
+      result:
+        item: newhorizon:wooden_chair_spruce_variant
+        amount: 2
+    wooden_chair_warped_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WWW
+        - WXW
+      ingredients:
+        W: WARPED_PLANKS
+      result:
+        item: newhorizon:wooden_chair_warped_variant
+        amount: 2
+
+    wooden_closet_acacia_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: ACACIA_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_acacia_variant
+        amount: 1
+    wooden_closet_birch_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: BIRCH_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_birch_variant
+        amount: 1
+    wooden_closet_cherry_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: CHERRY_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_cherry_variant
+        amount: 1
+    wooden_closet_crimson_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: CRIMSON_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_crimson_variant
+        amount: 1
+    wooden_closet_dark_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: DARK_OAK_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_dark_oak_variant
+        amount: 1
+    wooden_closet_jungle_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: JUNGLE_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_jungle_variant
+        amount: 1
+    wooden_closet_mangrove_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: MANGROVE_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_mangrove_variant
+        amount: 1
+    wooden_closet_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: OAK_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_oak_variant
+        amount: 1
+    wooden_closet_spruce_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: SPRUCE_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_spruce_variant
+        amount: 1
+    wooden_closet_warped_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WCW
+        - WWW
+      ingredients:
+        W: WARPED_PLANKS
+        C: CHEST
+      result:
+        item: newhorizon:wooden_closet_warped_variant
+        amount: 1
+
+    wooden_couch_acacia_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: ACACIA_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_acacia_variant
+        amount: 1
+    wooden_couch_birch_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: BIRCH_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_birch_variant
+        amount: 1
+    wooden_couch_cherry_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: CHERRY_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_cherry_variant
+        amount: 1
+    wooden_couch_crimson_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: CRIMSON_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_crimson_variant
+        amount: 1
+    wooden_couch_dark_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: DARK_OAK_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_dark_oak_variant
+        amount: 1
+    wooden_couch_jungle_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: JUNGLE_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_jungle_variant
+        amount: 1
+    wooden_couch_mangrove_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: MANGROVE_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_mangrove_variant
+        amount: 1
+    wooden_couch_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: OAK_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_oak_variant
+        amount: 1
+    wooden_couch_spruce_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: SPRUCE_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_spruce_variant
+        amount: 1
+    wooden_couch_warped_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WXX
+        - WLX
+        - WWW
+      ingredients:
+        W: WARPED_PLANKS
+        L: WHITE_WOOL
+      result:
+        item: newhorizon:wooden_couch_warped_variant
+        amount: 1
+
+    wooden_drawer_acacia_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: ACACIA_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_acacia_variant
+        amount: 1
+    wooden_drawer_birch_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: BIRCH_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_birch_variant
+        amount: 1
+    wooden_drawer_cherry_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: CHERRY_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_cherry_variant
+        amount: 1
+    wooden_drawer_crimson_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: CRIMSON_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_crimson_variant
+        amount: 1
+    wooden_drawer_dark_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: DARK_OAK_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_dark_oak_variant
+        amount: 1
+    wooden_drawer_jungle_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: JUNGLE_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_jungle_variant
+        amount: 1
+    wooden_drawer_mangrove_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: MANGROVE_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_mangrove_variant
+        amount: 1
+    wooden_drawer_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: OAK_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_oak_variant
+        amount: 1
+    wooden_drawer_spruce_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: SPRUCE_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_spruce_variant
+        amount: 1
+    wooden_drawer_warped_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - WWW
+        - WXW
+      ingredients:
+        W: WARPED_PLANKS
+      result:
+        item: newhorizon:wooden_drawer_warped_variant
+        amount: 1
+
+    wooden_large_table_acacia_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: ACACIA_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_acacia_variant
+        amount: 1
+    wooden_large_table_birch_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: BIRCH_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_birch_variant
+        amount: 1
+    wooden_large_table_cherry_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: CHERRY_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_cherry_variant
+        amount: 1
+    wooden_large_table_crimson_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: CRIMSON_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_crimson_variant
+        amount: 1
+    wooden_large_table_dark_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: DARK_OAK_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_dark_oak_variant
+        amount: 1
+    wooden_large_table_jungle_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: JUNGLE_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_jungle_variant
+        amount: 1
+    wooden_large_table_mangrove_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: MANGROVE_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_mangrove_variant
+        amount: 1
+    wooden_large_table_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: OAK_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_oak_variant
+        amount: 1
+    wooden_large_table_spruce_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: SPRUCE_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_spruce_variant
+        amount: 1
+    wooden_large_table_warped_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WWW
+        - SXS
+        - SXS
+      ingredients:
+        W: WARPED_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_large_table_warped_variant
+        amount: 1
+
+    wooden_table_acacia_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: ACACIA_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_acacia_variant
+        amount: 1
+    wooden_table_birch_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: BIRCH_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_birch_variant
+        amount: 1
+    wooden_table_cherry_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: CHERRY_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_cherry_variant
+        amount: 1
+    wooden_table_crimson_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: CRIMSON_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_crimson_variant
+        amount: 1
+    wooden_table_dark_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: DARK_OAK_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_dark_oak_variant
+        amount: 1
+    wooden_table_jungle_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: JUNGLE_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_jungle_variant
+        amount: 1
+    wooden_table_mangrove_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: MANGROVE_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_mangrove_variant
+        amount: 1
+    wooden_table_oak_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: OAK_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_oak_variant
+        amount: 1
+    wooden_table_spruce_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: SPRUCE_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_spruce_variant
+        amount: 1
+    wooden_table_warped_variant:
+      permission: player
+      enabled: true
+      pattern:
+        - WW
+        - SS
+        - SS
+      ingredients:
+        W: WARPED_SLAB
+        S: STICK
+      result:
+        item: newhorizon:wooden_table_warped_variant
+        amount: 1
+
+
+#Coins
+
+    gold_coin_pile:
+      permission: player
+      enabled: true
+      pattern:
+        - GGG
+        - GGG
+        - GGG
+      ingredients:
+        G: newhorizon:gold_coin
+      result:
+        item: newhorizon:gold_coin_pile
+        amount: 1
+
+    gold_coin:
+      permission: player
+      enabled: true
+      pattern:
+        - G
+      ingredients:
+        G: newhorizon:gold_coin_pile
+      result:
+        item: newhorizon:gold_coin
+        amount: 9
+
+    emerald_coin_pile:
+      permission: player
+      enabled: true
+      pattern:
+        - GGG
+        - GGG
+        - GGG
+      ingredients:
+        G: newhorizon:emerald_coin
+      result:
+        item: newhorizon:emerald_coin_pile
+        amount: 1
+
+    emerald_coin:
+      permission: player
+      enabled: true
+      pattern:
+        - G
+      ingredients:
+        G: newhorizon:emerald_coin_pile
+      result:
+        item: newhorizon:emerald_coin
+        amount: 9

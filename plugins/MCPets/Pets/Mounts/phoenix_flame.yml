@@ -1,0 +1,62 @@
+Id: Phoenix_Flame
+MythicMob: Phoenix_Flame
+Permission: mcpet.phoenix_flame
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bPhoenix
+  Material: BRICK
+  CustomModelData: 2532
+  Description:
+  - §fGet your pet Phoenix!
+  Raw:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"spawn_egg","italic":false,"color":"white"}'
+      custom-model-data: 10127
+      custom: H4sIAAAAAAAA/w3IQQqAMAwEwMVTjY+UYJaaQ9OSCgVfr3McAQTiD9tUM2bB5oZjDl3BPFlrwR7a+M9FSHDdPf3tAXxIxdDePAAAAA==
+Skins:
+  Phoenix_Flame:
+    MythicMob: Phoenix_Flame
+    Permission: skin.phoenix_flame
+    Icon:
+      Material: BRICK
+      CustomModelData: 2532
+      DisplayName: §cPhoenix
+      Lore:
+      - §fGet your pet Phoenix!
+  Phoenix_Darkflame:
+    MythicMob: Phoenix_Darkflame
+    Permission: skin.phoenix_darkflame
+    Icon:
+      Material: BRICK
+      CustomModelData: 2531
+      DisplayName: §3Darkflame Phoenix
+      Lore:
+      - §fGet your pet Darkflame Phoenix!
+  Phoenix_Light:
+    MythicMob: Phoenix_Light
+    Permission: skin.phoenix_light
+    Icon:
+      Material: BRICK
+      CustomModelData: 2533
+      DisplayName: §eLight Phoenix
+      Lore:
+      - §fGet your pet Light Phoenix!
+  Phoenix_Thunder:
+    MythicMob: Phoenix_Thunder
+    Permission: skin.phoenix_thunder
+    Icon:
+      Material: BRICK
+      CustomModelData: 2534
+      DisplayName: §bThunder Phoenix
+      Lore:
+      - §fGet your pet Thunder Phoenix!

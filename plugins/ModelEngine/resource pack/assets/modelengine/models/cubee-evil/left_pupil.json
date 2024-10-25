@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/evil_cubee"},"elements":[{"from":[7.40325,7.4032497,8.0],"to":[8.59675,8.59675,8.0],"faces":{"south":{"uv":[5.0,13.5,5.5,14.0],"tintindex":0,"rotation":0,"texture":"#0"},"north":{"uv":[4.5,13.5,5.0,14.0],"tintindex":0,"rotation":0,"texture":"#0"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

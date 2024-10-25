@@ -1,0 +1,36 @@
+###############################################
+##     Developed by Elo106 and Pashjn        ##
+##VOXEL SPAWNS https://discord.gg/BypTbqTk   ##
+###############################################
+
+pug:
+  Type: WOLF
+  Display: '&2Pug'
+  Health: 10
+  Damage: 0
+  Despawn: False
+  Drops:
+#################
+  Options:
+    AlwaysShowName: false
+    Silent: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.22
+    MaxCombatDistance: 40
+    KnockbackResistance: 1
+  DamageModifiers:
+  - SUFFOCATION 0.0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - model{mid=pug;drive=true;damagetint=true} @self ~onSpawn
+  - sound{s=entity.wolf.pant} @self ~onSpawn
+  - sound{s=entity.wolf.hurt;p=1.2} @self ~onDamaged
+  - sound{s=entity.wolf.death} @self ~onDeath
+  - skill{s=VS_PUG_SIT;sync=true} @Trigger ~onInteract
+  - randomskill{skills=VS_PUG_BARK,VS_PUG_CURIOUS} @self ~onTimer:600 0.5
+  - skill{s=VS_PUG_BYE} @self ~onDespawn

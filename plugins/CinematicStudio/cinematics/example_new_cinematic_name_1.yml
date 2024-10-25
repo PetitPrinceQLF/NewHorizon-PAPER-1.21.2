@@ -1,0 +1,50 @@
+metadata:
+  version: 1.0
+  serverVersion: '1.21.1-119-7cd4f2c (MC: 1.21.1)'
+  bukkitVersion: 1.21.1-R0.1-SNAPSHOT
+  creationDate: '2024-10-16 19:35:07'
+  saveDate: '2024-10-16 21:01:36'
+  author:
+    name: PetitPrinceOff
+    uuid: ce97a2a6-b387-4215-8df1-39692635b5a6
+properties:
+  durationTicks: 150.0
+  usePumpkinHelmet: false
+  useWanderingTraderEggHelmet: false
+  endActions:
+    playerCommands: [
+      ]
+    consoleCommands: [
+      ]
+timelineRows:
+  '0':
+    '0':
+      type: CAMERA
+      pos:
+        x: -22.573998869167422
+        y: 93.30455276133907
+        z: 73.87253645092972
+      rot:
+        x: 12.242623329162598
+        y: 168.02195739746094
+      mode: C
+      interpolation: SMOOTH
+      interpolationFrequency: 15.0
+      instantTeleport: false
+    '39':
+      type: CAMERA
+      pos:
+        x: -34.63631575874656
+        y: 97.73879234872027
+        z: 74.80913248330566
+      rot:
+        x: 53.27218246459961
+        y: 185.75730895996094
+      mode: C
+      interpolation: SMOOTH
+      interpolationFrequency: 15.0
+      instantTeleport: false
+  '1':
+    '0':
+      type: ACTOR_RECORDING
+      recordingName: my_cinematic_1_npc_walking_1

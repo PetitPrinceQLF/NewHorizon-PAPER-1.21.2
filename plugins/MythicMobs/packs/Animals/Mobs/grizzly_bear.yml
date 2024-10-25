@@ -1,0 +1,45 @@
+grizzly_bear:
+  Type: IRON_GOLEM
+  Display: ''
+  Health: 92
+  Damage: 0
+  AIGoalSelectors:
+  - clear  
+  - meleeattack{attackReach=1}
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - players
+  Options:
+    Despawn: PERSISTENT
+    Collidable: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    Silent: true
+    PreventRenaming: false
+    PreventLeashing: false
+    AlwaysShowName: false
+    KnockbackResistance: 0.7
+  Modules:
+    ThreatTable: true
+  DamageModifiers:
+  - FIRE 1.2
+  Skills:
+  ### Applies the model when spawned.
+  - model{mid=grizzly_bear;n=name} @self ~onSpawn
+  - model{mid=grizzly_bear;n=name} @self ~onLoad
+  
+  ### Hurt Skills & Sounds
+  - sound{s=entity.polar_bear.hurt;p=0.8;v=1} @self ~onDamaged
+  
+  ### Ambient Skills & Sounds
+  - sound{s=entity.polar_bear.ambient;p=0.8;v=1} @self ~onTimer:600
+  
+  ### Death Skills & Sounds
+  - sound{s=entity.polar_bear.death;p=0.8;v=1} @self ~onDeath
+  
+  ### Attack Skills
+  - skill{s=grizzly_bear_bite_parse;sync=true;cd=2} ~onAttack
+  
+  Drops:
+  - grizzly_bear_drops

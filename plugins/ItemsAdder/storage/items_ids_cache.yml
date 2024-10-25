@@ -1,0 +1,203 @@
+PAPER:
+  _iainternal:icon_left_blue: 10000
+  _iainternal:icon_right_blue: 10001
+  _iainternal:icon_search: 10002
+  _iainternal:icon_cancel: 10003
+  _iainternal:icon_arrow_chest: 10004
+  _iainternal:icon_back_orange: 10005
+  _iainternal:icon_next_orange: 10006
+  newhorizon:wooden_bird_house_acacia_variant: 10007
+  newhorizon:wooden_bird_house_birch_variant: 10008
+  newhorizon:wooden_bird_house_cherry_variant: 10009
+  newhorizon:wooden_bird_house_crimson_variant: 10010
+  newhorizon:wooden_bird_house_dark_oak_variant: 10011
+  newhorizon:wooden_bird_house_jungle_variant: 10012
+  newhorizon:wooden_bird_house_mangrove_variant: 10013
+  newhorizon:wooden_bird_house_oak_variant: 10014
+  newhorizon:wooden_bird_house_spruce_variant: 10015
+  newhorizon:wooden_bird_house_warped_variant: 10016
+  newhorizon:wooden_chair_acacia_variant: 10017
+  newhorizon:wooden_chair_birch_variant: 10018
+  newhorizon:wooden_chair_cherry_variant: 10019
+  newhorizon:wooden_chair_crimson_variant: 10020
+  newhorizon:wooden_chair_dark_oak_variant: 10021
+  newhorizon:wooden_chair_jungle_variant: 10022
+  newhorizon:wooden_chair_mangrove_variant: 10023
+  newhorizon:wooden_chair_oak_variant: 10024
+  newhorizon:wooden_chair_spruce_variant: 10025
+  newhorizon:wooden_chair_warped_variant: 10026
+  newhorizon:wooden_closet_acacia_variant: 10027
+  newhorizon:wooden_closet_birch_variant: 10028
+  newhorizon:wooden_closet_cherry_variant: 10029
+  newhorizon:wooden_closet_crimson_variant: 10030
+  newhorizon:wooden_closet_dark_oak_variant: 10031
+  newhorizon:wooden_closet_jungle_variant: 10032
+  newhorizon:wooden_closet_mangrove_variant: 10033
+  newhorizon:wooden_closet_oak_variant: 10034
+  newhorizon:wooden_closet_spruce_variant: 10035
+  newhorizon:wooden_closet_warped_variant: 10036
+  newhorizon:wooden_drawer_acacia_variant: 10037
+  newhorizon:wooden_drawer_birch_variant: 10038
+  newhorizon:wooden_drawer_cherry_variant: 10039
+  newhorizon:wooden_drawer_crimson_variant: 10040
+  newhorizon:wooden_drawer_dark_oak_variant: 10041
+  newhorizon:wooden_drawer_jungle_variant: 10042
+  newhorizon:wooden_drawer_mangrove_variant: 10043
+  newhorizon:wooden_drawer_oak_variant: 10044
+  newhorizon:wooden_drawer_spruce_variant: 10045
+  newhorizon:wooden_drawer_warped_variant: 10046
+  newhorizon:wooden_flowerpot_acacia_variant: 10047
+  newhorizon:wooden_flowerpot_birch_variant: 10048
+  newhorizon:wooden_flowerpot_cherry_variant: 10049
+  newhorizon:wooden_flowerpot_crimson_variant: 10050
+  newhorizon:wooden_flowerpot_dark_oak_variant: 10051
+  newhorizon:wooden_flowerpot_jungle_variant: 10052
+  newhorizon:wooden_flowerpot_mangrove_variant: 10053
+  newhorizon:wooden_flowerpot_oak_variant: 10054
+  newhorizon:wooden_flowerpot_spruce_variant: 10055
+  newhorizon:wooden_flowerpot_warped_variant: 10056
+  newhorizon:wooden_large_table_acacia_variant: 10057
+  newhorizon:wooden_large_table_birch_variant: 10058
+  newhorizon:wooden_large_table_cherry_variant: 10059
+  newhorizon:wooden_large_table_crimson_variant: 10060
+  newhorizon:wooden_large_table_dark_oak_variant: 10061
+  newhorizon:wooden_large_table_jungle_variant: 10062
+  newhorizon:wooden_large_table_mangrove_variant: 10063
+  newhorizon:wooden_large_table_oak_variant: 10064
+  newhorizon:wooden_large_table_spruce_variant: 10065
+  newhorizon:wooden_large_table_warped_variant: 10066
+  newhorizon:wooden_table_acacia_variant: 10067
+  newhorizon:wooden_table_birch_variant: 10068
+  newhorizon:wooden_table_cherry_variant: 10069
+  newhorizon:wooden_table_crimson_variant: 10070
+  newhorizon:wooden_table_dark_oak_variant: 10071
+  newhorizon:wooden_table_jungle_variant: 10072
+  newhorizon:wooden_table_mangrove_variant: 10073
+  newhorizon:wooden_table_oak_variant: 10074
+  newhorizon:wooden_table_spruce_variant: 10075
+  newhorizon:wooden_table_warped_variant: 10076
+  newhorizon:empty: 10077
+  newhorizon:glacial_sword_token: 10078
+  newhorizon:unwrapper: 10079
+  newhorizon:glacial_sword_netherite: 10080
+  newhorizon:glacial_sword_netherite2: 10081
+  newhorizon:glacial_axe_token: 10082
+  newhorizon:glacial_pickaxe_token: 10083
+  newhorizon:glacial_shovel_token: 10084
+  newhorizon:glacial_hoe_token: 10085
+  newhorizon:glacial_bow_token: 10086
+  newhorizon:grizzly_bear_pelt: 10087
+  newhorizon:alligator_scale: 10088
+  newhorizon:water_effect: 10089
+  newhorizon:sprinkler_1: 10090
+  newhorizon:sprinkler_1_item: 10091
+  newhorizon:sprinkler_2: 10092
+  newhorizon:sprinkler_2_item: 10093
+  newhorizon:sprinkler_3: 10094
+  newhorizon:sprinkler_3_item: 10095
+  newhorizon:cubees-icon-good_cubee: 7191001
+  newhorizon:cubees-icon-evil_cubee: 7191002
+  newhorizon:cubees-icon-grass_cubee: 7191003
+  newhorizon:cubees-icon-skeleton_cubee: 7191004
+  newhorizon:cubees-icon-stone_cubee: 7191005
+  newhorizon:cubees-icon-water_cubee: 7191006
+  newhorizon:cubees-icon-fire_cubee: 7191007
+  newhorizon:cubees-icon-tnt_cubee: 7191008
+  newhorizon:pet_category_common: 121
+  newhorizon:pet_category_rare: 122
+  newhorizon:pet_category_epic: 123
+  newhorizon:pet_category_legendary: 124
+PLAYER_HEAD:
+  __manually_handled:_iainternal__player_phead_0: 10000
+  __manually_handled:_iainternal__player_parm_left_3: 10001
+  __manually_handled:_iainternal__player_pbody_2: 10002
+  __manually_handled:_iainternal__player_pleg_left_1: 10003
+  __manually_handled:_iainternal__player_pleg_right_5: 10004
+  __manually_handled:_iainternal__player_parm_right_4: 10005
+  newhorizon:profilehead: 1
+  newhorizon:profilehead_main_menu: 2
+LEATHER_HORSE_ARMOR:
+  newhorizon:wooden_couch_acacia_variant: 10000
+  newhorizon:wooden_couch_birch_variant: 10001
+  newhorizon:wooden_couch_cherry_variant: 10002
+  newhorizon:wooden_couch_crimson_variant: 10003
+  newhorizon:wooden_couch_dark_oak_variant: 10004
+  newhorizon:wooden_couch_jungle_variant: 10005
+  newhorizon:wooden_couch_mangrove_variant: 10006
+  newhorizon:wooden_couch_oak_variant: 10007
+  newhorizon:wooden_couch_spruce_variant: 10008
+  newhorizon:wooden_couch_warped_variant: 10009
+NETHERITE_SWORD:
+  newhorizon:glacial_sword_netherite: 10000
+  newhorizon:glacial_sword: 10001
+NETHERITE_AXE:
+  newhorizon:glacial_axe_netherite: 10000
+  newhorizon:glacial_axe: 10001
+NETHERITE_PICKAXE:
+  newhorizon:glacial_pickaxe_netherite: 10000
+  newhorizon:glacial_pickaxe: 10001
+NETHERITE_SHOVEL:
+  newhorizon:glacial_shovel_netherite: 10000
+  newhorizon:glacial_shovel: 10001
+NETHERITE_HOE:
+  newhorizon:glacial_hoe_netherite: 10000
+  newhorizon:glacial_hoe: 10001
+DIAMOND_SWORD:
+  newhorizon:glacial_sword_diamond: 10000
+DIAMOND_AXE:
+  newhorizon:glacial_axe_diamond: 10000
+DIAMOND_PICKAXE:
+  newhorizon:glacial_pickaxe_diamond: 10000
+DIAMOND_SHOVEL:
+  newhorizon:glacial_shovel_diamond: 10000
+DIAMOND_HOE:
+  newhorizon:glacial_hoe_diamond: 10000
+GOLDEN_SWORD:
+  newhorizon:glacial_sword_gold: 10000
+GOLDEN_AXE:
+  newhorizon:glacial_axe_gold: 10000
+GOLDEN_PICKAXE:
+  newhorizon:glacial_pickaxe_gold: 10000
+GOLDEN_SHOVEL:
+  newhorizon:glacial_shovel_gold: 10000
+GOLDEN_HOE:
+  newhorizon:glacial_hoe_gold: 10000
+IRON_SWORD:
+  newhorizon:glacial_sword_iron: 10000
+IRON_AXE:
+  newhorizon:glacial_axe_iron: 10000
+IRON_PICKAXE:
+  newhorizon:glacial_pickaxe_iron: 10000
+IRON_SHOVEL:
+  newhorizon:glacial_shovel_iron: 10000
+IRON_HOE:
+  newhorizon:glacial_hoe_iron: 10000
+STONE_SWORD:
+  newhorizon:glacial_sword_stone: 10000
+STONE_AXE:
+  newhorizon:glacial_axe_stone: 10000
+STONE_PICKAXE:
+  newhorizon:glacial_pickaxe_stone: 10000
+STONE_SHOVEL:
+  newhorizon:glacial_shovel_stone: 10000
+STONE_HOE:
+  newhorizon:glacial_hoe_stone: 10000
+WOODEN_SWORD:
+  newhorizon:glacial_sword_wooden: 10000
+WOODEN_AXE:
+  newhorizon:glacial_axe_wooden: 10000
+WOODEN_PICKAXE:
+  newhorizon:glacial_pickaxe_wooden: 10000
+WOODEN_SHOVEL:
+  newhorizon:glacial_shovel_wooden: 10000
+WOODEN_HOE:
+  newhorizon:glacial_hoe_wooden: 10000
+  newhorizon:glacial_bow_wooden: 10001
+BOW:
+  newhorizon:glacial_bow_wooden: 10000
+  newhorizon:glacial_bow: 10001
+YELLOW_DYE:
+  newhorizon:pet_category_common: 121
+  newhorizon:pet_category_rare: 122
+  newhorizon:pet_category_epic: 123
+  newhorizon:pet_category_legendary: 124

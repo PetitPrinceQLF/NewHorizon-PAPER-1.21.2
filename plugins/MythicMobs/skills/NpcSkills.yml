@@ -1,0 +1,17 @@
+NpcWave:
+  Cooldown: 2
+  Skills:
+  - cancelEvent
+  - look{immediately=true} @Trigger
+  - state{s=wave} @self
+  
+NpcPose:
+  Cooldown: 20
+  Skills:
+  - look{immediately=true} @Trigger
+  - state{s=pose} @self
+
+traderNpcInteract:
+  Skills:
+  -   sound{s=newhorizon:newhorizon.voices.male1;p=1.2} @self
+  - command{c="dmenu open trader <trigger.name>"} @trigger ~onInteract

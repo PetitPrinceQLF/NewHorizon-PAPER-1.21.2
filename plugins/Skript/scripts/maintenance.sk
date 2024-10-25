@@ -1,0 +1,28 @@
+#======================#
+#      Maintenance     #
+#======================#
+
+options:
+	prefix: &f
+	noperms: &fฒ Vous n'avez pas les permissions pour faire ça !.
+
+command /maintenance [<text>]:
+	permission: admin
+	trigger:
+		if arg 1 is "on":
+			set {maintenance} to true
+			broadcast "{@prefix} &f Une maintenance sera lancée dans 10 secondes ! Désolé de la gêne occasionnée"
+			wait 10 seconds
+			loop all players:
+				if loop-player don't have permission "admin":
+					kick loop-player because "&8&m----------&fฒ&8&m----------%nl% &fUne maintenance est en cours, veuillez patienter !"
+				broadcast "{@prefix} &fLa maintenance est désormais effective"
+		if arg 1 is "off":
+			set {maintenance} to false
+			broadcast "{@prefix} &fLa maintenance n'est plus effective desormais"
+			
+on join:
+	if {maintenance} is true:
+		if player doesn't have permission "admin":
+			kick player because "&8&m----------&fฒ&8&m----------%nl% &fUne maintenance est en cours, veuillez patienter !"
+			broadcast "{@prefix} &a%player% &fa essayé de rejoindre la partie"

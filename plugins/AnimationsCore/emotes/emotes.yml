@@ -1,0 +1,9 @@
+animations:
+  dance:
+    mm-id: emote-dance
+    duration: 100
+    permission: "animcore.emote.dance"
+  bow:
+    mm-id: emote-bow
+    duration: 50
+    permission: "animcore.emote.bow"

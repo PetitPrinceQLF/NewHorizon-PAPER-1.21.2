@@ -1,0 +1,7 @@
+grizzly_bear_pelt:
+
+  Id: PAPER
+  Model: 10087
+  Display: '&fPeau d''ours grizzly'
+  Lore:
+    - '&f'

@@ -1,0 +1,10 @@
+######## created by samus2002 #########
+
+glacialboots:
+  Id: leather_boots
+  Display: "&6"
+  Hide:
+  - ATTRIBUTES
+  Enchantments:
+  - FROST_WALKER:1
+ 

@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "PetitPrinceOff",
+      "uniqueId": "ce97a2a6-b387-4215-8df1-39692635b5a6"
+    },
+    "time": 1728733734435,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3m8QuOBWoY"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "PetitPrinceOff",
+      "uniqueId": "ce97a2a6-b387-4215-8df1-39692635b5a6"
+    },
+    "time": 1728733651709,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Doz0BWy1il"
+    }
+  }
+]

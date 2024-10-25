@@ -1,0 +1,7 @@
+#======================#
+#         Help         #
+#======================#
+
+on command "/help":
+    cancel event
+    make player execute command "wiki"

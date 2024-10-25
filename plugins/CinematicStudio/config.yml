@@ -1,0 +1,16 @@
+messages:
+  settings:
+    lang: en
+    extract_default_language_files: true
+  debug:
+    enabled: false
+cinematics:
+  graphics:
+    pumpkin:
+      custom_model_data: 3000001
+      display_name: ''
+    wandering_trader_egg:
+      custom_model_data: 3000001
+      display_name: ''
+gui:
+  use_resourcepack: true

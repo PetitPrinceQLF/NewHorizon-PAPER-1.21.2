@@ -1,0 +1,126 @@
+info:
+  namespace: newhorizon
+categories:
+  wooden_furniture:
+    enabled: true
+    icon: newhorizon:wooden_chair_oak_variant
+    name: 'Meubles en bois'
+    items:
+
+      - newhorizon:wooden_chair_acacia_variant
+      - newhorizon:wooden_chair_birch_variant
+      - newhorizon:wooden_chair_cherry_variant
+      - newhorizon:wooden_chair_crimson_variant
+      - newhorizon:wooden_chair_dark_oak_variant
+      - newhorizon:wooden_chair_jungle_variant
+      - newhorizon:wooden_chair_mangrove_variant
+      - newhorizon:wooden_chair_oak_variant
+      - newhorizon:wooden_chair_spruce_variant
+      - newhorizon:wooden_chair_warped_variant
+
+      - newhorizon:wooden_closet_acacia_variant
+      - newhorizon:wooden_closet_birch_variant
+      - newhorizon:wooden_closet_cherry_variant
+      - newhorizon:wooden_closet_crimson_variant
+      - newhorizon:wooden_closet_dark_oak_variant
+      - newhorizon:wooden_closet_jungle_variant
+      - newhorizon:wooden_closet_mangrove_variant
+      - newhorizon:wooden_closet_oak_variant
+      - newhorizon:wooden_closet_spruce_variant
+      - newhorizon:wooden_closet_warped_variant
+
+      - newhorizon:wooden_couch_acacia_variant
+      - newhorizon:wooden_couch_birch_variant
+      - newhorizon:wooden_couch_cherry_variant
+      - newhorizon:wooden_couch_crimson_variant
+      - newhorizon:wooden_couch_dark_oak_variant
+      - newhorizon:wooden_couch_jungle_variant
+      - newhorizon:wooden_couch_mangrove_variant
+      - newhorizon:wooden_couch_oak_variant
+      - newhorizon:wooden_couch_spruce_variant
+      - newhorizon:wooden_couch_warped_variant
+
+      - newhorizon:wooden_drawer_acacia_variant
+      - newhorizon:wooden_drawer_birch_variant
+      - newhorizon:wooden_drawer_cherry_variant
+      - newhorizon:wooden_drawer_crimson_variant
+      - newhorizon:wooden_drawer_dark_oak_variant
+      - newhorizon:wooden_drawer_jungle_variant
+      - newhorizon:wooden_drawer_mangrove_variant
+      - newhorizon:wooden_drawer_oak_variant
+      - newhorizon:wooden_drawer_spruce_variant
+      - newhorizon:wooden_drawer_warped_variant
+
+      - newhorizon:wooden_large_table_acacia_variant
+      - newhorizon:wooden_large_table_birch_variant
+      - newhorizon:wooden_large_table_cherry_variant
+      - newhorizon:wooden_large_table_crimson_variant
+      - newhorizon:wooden_large_table_dark_oak_variant
+      - newhorizon:wooden_large_table_jungle_variant
+      - newhorizon:wooden_large_table_mangrove_variant
+      - newhorizon:wooden_large_table_oak_variant
+      - newhorizon:wooden_large_table_spruce_variant
+      - newhorizon:wooden_large_table_warped_variant
+
+      - newhorizon:wooden_table_acacia_variant
+      - newhorizon:wooden_table_birch_variant
+      - newhorizon:wooden_table_cherry_variant
+      - newhorizon:wooden_table_crimson_variant
+      - newhorizon:wooden_table_dark_oak_variant
+      - newhorizon:wooden_table_jungle_variant
+      - newhorizon:wooden_table_mangrove_variant
+      - newhorizon:wooden_table_oak_variant
+      - newhorizon:wooden_table_spruce_variant
+      - newhorizon:wooden_table_warped_variant
+
+
+
+  wraps:
+    enabled: true
+    icon: newhorizon:glacial_sword_netherite
+    name: 'Modifications'
+    items:
+      - newhorizon:glacial_sword_netherite
+      - newhorizon:glacial_axe_netherite
+      - newhorizon:glacial_pickaxe_netherite
+      - newhorizon:glacial_shovel_netherite
+      - newhorizon:glacial_hoe_netherite
+
+      - newhorizon:glacial_sword_diamond
+      - newhorizon:glacial_axe_diamond
+      - newhorizon:glacial_pickaxe_diamond
+      - newhorizon:glacial_shovel_diamond
+      - newhorizon:glacial_hoe_diamond
+
+      - newhorizon:glacial_sword_gold
+      - newhorizon:glacial_axe_gold
+      - newhorizon:glacial_pickaxe_gold
+      - newhorizon:glacial_shovel_gold
+      - newhorizon:glacial_hoe_gold
+
+      - newhorizon:glacial_sword_iron
+      - newhorizon:glacial_axe_iron
+      - newhorizon:glacial_pickaxe_iron
+      - newhorizon:glacial_shovel_iron
+      - newhorizon:glacial_hoe_iron
+
+      - newhorizon:glacial_sword_stone
+      - newhorizon:glacial_axe_stone
+      - newhorizon:glacial_pickaxe_stone
+      - newhorizon:glacial_shovel_stone
+      - newhorizon:glacial_hoe_stone
+
+      - newhorizon:glacial_sword_wooden
+      - newhorizon:glacial_axe_wooden
+      - newhorizon:glacial_pickaxe_wooden
+      - newhorizon:glacial_shovel_wooden
+      - newhorizon:glacial_hoe_wooden
+
+      - newhorizon:glacial_bow
+
+      - newhorizon:glacial_sword_token
+      - newhorizon:glacial_axe_token
+      - newhorizon:glacial_pickaxe_token
+      - newhorizon:glacial_shovel_token
+      - newhorizon:glacial_hoe_token
+      - newhorizon:glacial_bow_token

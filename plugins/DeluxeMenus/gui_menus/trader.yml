@@ -1,0 +1,46 @@
+menu_title: ':offset_-48::trader:'
+open_command: []
+size: 45
+update_interval: 1
+items:
+
+  'quit':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 0
+    display_name: '&4Quitter'
+    left_click_commands:
+      - "[close]"
+
+  'farms':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 9
+      - 10
+      - 11
+      - 12
+    display_name: '&7Agricultures'
+    left_click_commands:
+      - "[console] shopkeeper open farms %player_name%"
+
+  'pets':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 18
+      - 19
+      - 20
+      - 21
+    display_name: '&7Familiers'
+    left_click_commands:
+      - "[console] shopkeeper open pets %player_name%"
+
+  'others':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 27
+      - 28
+      - 29
+      - 30
+    display_name: '&7Autres'
+    left_click_commands:
+      - "[console] shopkeeper open others %player_name%"

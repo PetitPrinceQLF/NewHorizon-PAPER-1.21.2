@@ -1,0 +1,287 @@
+info:
+  namespace: newhorizon
+items:
+
+  glacial_sword_netherite:
+    display_name: '&fEpée glacière'
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_sword
+  glacial_axe_netherite:
+    display_name: '&fAche glacière'
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_axe
+  glacial_pickaxe_netherite:
+    display_name: '&fPioche glacière'
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_pickaxe
+  glacial_shovel_netherite:
+    display_name: '&fPelle glacière'
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_shovel
+  glacial_hoe_netherite:
+    display_name: '&fHoue glacière'
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_hoe
+
+  glacial_sword_diamond:
+    display_name: '&fEpée glacière'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_sword
+  glacial_axe_diamond:
+    display_name: '&fAche glacière'
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_axe
+  glacial_pickaxe_diamond:
+    display_name: '&fPioche glacière'
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_pickaxe
+  glacial_shovel_diamond:
+    display_name: '&fPelle glacière'
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_shovel
+  glacial_hoe_diamond:
+    display_name: '&fHoue glacière'
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_hoe
+
+  glacial_sword_gold:
+    display_name: '&fEpée glacière'
+    resource:
+      material: GOLDEN_SWORD
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_sword
+  glacial_axe_gold:
+    display_name: '&fAche glacière'
+    resource:
+      material: GOLDEN_AXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_axe
+  glacial_pickaxe_gold:
+    display_name: '&fPioche glacière'
+    resource:
+      material: GOLDEN_PICKAXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_pickaxe
+  glacial_shovel_gold:
+    display_name: '&fPelle glacière'
+    resource:
+      material: GOLDEN_SHOVEL
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_shovel
+  glacial_hoe_gold:
+    display_name: '&fHoue glacière'
+    resource:
+      material: GOLDEN_HOE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_hoe
+
+  glacial_sword_iron:
+    display_name: '&fEpée glacière'
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_sword
+  glacial_axe_iron:
+    display_name: '&fAche glacière'
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_axe
+  glacial_pickaxe_iron:
+    display_name: '&fPioche glacière'
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_pickaxe
+  glacial_shovel_iron:
+    display_name: '&fPelle glacière'
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_shovel
+  glacial_hoe_iron:
+    display_name: '&fHoue glacière'
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_hoe
+
+  glacial_sword_stone:
+    display_name: '&fEpée glacière'
+    resource:
+      material: STONE_SWORD
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_sword
+  glacial_axe_stone:
+    display_name: '&fAche glacière'
+    resource:
+      material: STONE_AXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_axe
+  glacial_pickaxe_stone:
+    display_name: '&fPioche glacière'
+    resource:
+      material: STONE_PICKAXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_pickaxe
+  glacial_shovel_stone:
+    display_name: '&fPelle glacière'
+    resource:
+      material: STONE_SHOVEL
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_shovel
+  glacial_hoe_stone:
+    display_name: '&fHoue glacière'
+    resource:
+      material: STONE_HOE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_hoe
+
+  glacial_sword_wooden:
+    display_name: '&fEpée glacière'
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_sword
+  glacial_axe_wooden:
+    display_name: '&fAche glacière'
+    resource:
+      material: WOODEN_AXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_axe
+  glacial_pickaxe_wooden:
+    display_name: '&fPioche glacière'
+    resource:
+      material: WOODEN_PICKAXE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_pickaxe
+  glacial_shovel_wooden:
+    display_name: '&fPelle glacière'
+    resource:
+      material: WOODEN_SHOVEL
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_shovel
+  glacial_hoe_wooden:
+    display_name: '&fHoue glacière'
+    resource:
+      material: WOODEN_HOE
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_hoe
+
+  glacial_bow:
+    display_name: '&fArc glacière'
+    resource:
+      material: BOW
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_bow
+
+
+
+  glacial_sword_token:
+    display_name: '&fModification épée glacière'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_sword_token
+
+  glacial_axe_token:
+    display_name: '&fModification hache glacière'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_axe_token
+
+  glacial_pickaxe_token:
+    display_name: '&fModification pioche glacière'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_pickaxe_token
+
+  glacial_shovel_token:
+    display_name: '&fModification pelle glacière'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_shovel_token
+
+  glacial_hoe_token:
+    display_name: '&fModification houe glacière'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_hoe_token
+
+  glacial_bow_token:
+    display_name: '&fModification arc glacière'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - gears/glacial_gear/glacial_bow_token
+
+
+
+  unwrapper:
+    display_name: '&fUnwrapper'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - gears/glacial_gear/unwrapper

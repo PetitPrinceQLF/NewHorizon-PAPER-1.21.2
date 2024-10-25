@@ -1,0 +1,14 @@
+alligator_spawns:
+  Action: ADD
+  Type: alligator
+  Chance: 0.025
+  Priority: 10
+  UseWorldScaling: true
+  Worlds: world_resource
+  PositionType: LAND
+  Biomes: SAVANNA,SAVANNA_PLATEAU,WINDSWEPT_SAVANNAH,SWAMP
+  Conditions:
+  - outside{} true
+  - onblock{m=GRASS_BLOCK} true
+  - mobsInRadius{types=alligator;amount=>5;radius=60} false 
+  - mobsinchunk{a=<3} true

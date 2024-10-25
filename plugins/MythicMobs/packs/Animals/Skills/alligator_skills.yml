@@ -1,0 +1,69 @@
+### Death Roll Attack
+
+alligator_attack_death_roll_parse:
+  Skills:
+  - CancelEvent
+  - skill{s=alligator_attack_death_roll_activate;cd=1}
+  
+alligator_attack_death_roll_activate:
+  Condition:
+  - offgcd
+  Skills:
+  - gcd{ticks=25}
+  - state{state=death_roll;li=1;n=false;speed=1} @self
+  - sound{s=entity.evoker_fangs.attack;p=1.2;v=0.3;delay=4} @self
+  - pull{velocity=10;delay=4} @target
+  - sound{s=entity.sniffer.digging_stop;p=1.2;v=1;delay=6} @self
+  - damage{amount=12;delay=8} @target
+  
+### Standard Snap Attack
+
+alligator_attack_snap_standard_parse:
+  Skills:
+  - CancelEvent
+  - skill{s=alligator_attack_snap_standard_activate;cd=1}
+  
+alligator_attack_snap_standard_activate:
+  Condition:
+  - offgcd
+  Skills:
+  - gcd{ticks=25}
+  - state{state=snap_standard;li=1;n=false;speed=1} @self
+  - sound{s=entity.evoker_fangs.attack;p=1.2;v=0.3;delay=4} @self
+  - damage{amount=6;delay=4} @target
+  
+### Strong Snap Attack
+
+alligator_attack_snap_strong_parse:
+  Skills:
+  - CancelEvent
+  - skill{s=alligator_attack_snap_strong_activate;cd=1}
+  
+alligator_attack_snap_strong_activate:
+  Condition:
+  - offgcd
+  Skills:
+  - gcd{ticks=25}
+  - state{state=snap_strong;li=1;n=false;speed=1} @self
+  - sound{s=entity.evoker_fangs.attack;p=1.2;v=0.3;delay=4} @self
+  - damage{amount=8;delay=4} @target
+  
+### Hurt Events
+
+alligator_hurt_1:
+  Conditions:
+  - onground{} true cancel
+  Skills:
+  - state{state=hurt_1;li=1;n=false;speed=1} @self
+
+alligator_hurt_2:
+  Conditions:
+  - onground{} true cancel
+  Skills:
+  - state{state=hurt_2;li=1;n=false;speed=1} @self
+
+alligator_hurt_3:
+  Conditions:
+  - onground{} true cancel
+  Skills:
+  - state{state=hurt_3;li=1;n=false;speed=1} @self

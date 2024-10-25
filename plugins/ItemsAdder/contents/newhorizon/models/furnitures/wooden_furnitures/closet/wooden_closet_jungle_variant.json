@@ -1,0 +1,8 @@
+{
+	"credit": "MadewithBlockbench",
+	"parent": "newhorizon:furnitures/wooden_furnitures/closet/wooden_closet_oak_variant",
+	"textures": {
+		"0": "newhorizon:furnitures/wooden_furnitures/closet/wooden_closet_jungle_variant",
+		"particle": "newhorizon:furnitures/wooden_furnitures/closet/wooden_closet_jungle_variant"
+	}
+}

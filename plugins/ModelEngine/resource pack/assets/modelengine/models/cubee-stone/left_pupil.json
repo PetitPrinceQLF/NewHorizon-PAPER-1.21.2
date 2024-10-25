@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/stone_cubee"},"elements":[{"from":[7.40325,7.4032497,8.0],"to":[8.59675,8.59675,8.0],"faces":{"south":{"uv":[1.25,6.5,1.5,6.75],"tintindex":0,"rotation":0,"texture":"#0"},"north":{"uv":[6.25,1.25,6.5,1.5],"tintindex":0,"rotation":0,"texture":"#0"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

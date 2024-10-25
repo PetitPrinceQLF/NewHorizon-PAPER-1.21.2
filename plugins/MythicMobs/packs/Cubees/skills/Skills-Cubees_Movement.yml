@@ -1,0 +1,13 @@
+Cubees-Setting-Movement:
+  Conditions:
+  - stringEQ{val1="<placeholder.Cubees-FollowPlayerPitch>";val2="true"} cast Cubees-Setting-FollowPlayerPitch-true
+  - stringEQ{val1="<placeholder.Cubees-FollowPlayerPitch>";val2="false"} cast Cubees-Setting-FollowPlayerPitch-false
+  Skills:
+
+Cubees-Setting-FollowPlayerPitch-false:
+  Skills:
+  - sudoskill{s=[ - pull{v=7;to=true;Origin=@Forward{f=-0.3;y=0.75;sideOffset=0.7;sudoowner=true;lockpitch=true};fo=true} @trigger ];cat=true} @owner{conditions=[ - crouching false]}
+
+Cubees-Setting-FollowPlayerPitch-true:
+  Skills:
+  - sudoskill{s=[ - pull{v=7;to=true;Origin=@Forward{f=-0.3;y=0.75;sideOffset=0.7;sudoowner=true;lockpitch=false};fo=true} @trigger ];cat=true} @owner{conditions=[ - crouching false]}

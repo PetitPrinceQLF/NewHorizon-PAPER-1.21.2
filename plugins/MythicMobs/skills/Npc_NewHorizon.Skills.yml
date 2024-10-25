@@ -1,0 +1,24 @@
+NpcTalk:
+  Cooldown: 2
+  Skills:
+  - cancelEvent
+  - look{immediately=true} @Trigger
+  - state{s=talk} @self
+
+NpcIdle:
+  Cooldown: 20
+  Skills:
+  - look{immediately=true} @Trigger
+  - state{s=idle} @self
+
+NpcIdle1:
+  Cooldown: 20
+  Skills:
+  - look{immediately=true} @Trigger
+  - state{s=idle1} @self
+
+NpcIdle2:
+  Cooldown: 20
+  Skills:
+  - look{immediately=true} @Trigger
+  - state{s=idle2} @self

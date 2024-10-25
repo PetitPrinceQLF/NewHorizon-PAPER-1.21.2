@@ -1,0 +1,8 @@
+{
+	"credit": "MadewithBlockbench",
+	"parent": "newhorizon:furnitures/wooden_furnitures/couch/wooden_couch_acacia_variant",
+	"textures": {
+		"2": "newhorizon:furnitures/wooden_furnitures/couch/wooden_couch_warped_variant",
+		"particle": "newhorizon:furnitures/wooden_furnitures/couch/wooden_couch_warped_variant"
+	}
+}

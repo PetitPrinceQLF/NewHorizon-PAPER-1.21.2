@@ -1,0 +1,10 @@
+ce97a2a6-b387-4215-8df1-39692635b5a6:
+  join: join_appear
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
+  afk: waiting
+  gui: defaultGuiAnimation
+  kill: killDefault
+  teleport-out: teleportOutDefault
+  teleport-in: teleportInDefault

@@ -1,0 +1,9 @@
+animations:
+  join_allay:
+    mm-id: join-allay
+    duration: 113
+    permission: "animcore.join.allay"
+  join_appear:
+    mm-id: join-appear
+    duration: 20
+    permission: "animcore.join.appear"

@@ -1,0 +1,7 @@
+animations:
+  blackhole:
+    mm-id: death-blackhole
+    permission: "animcore.death.death_blackhole"
+  sword:
+    mm-id: death-sword
+    permission: "animcore.death.death_blackhole"

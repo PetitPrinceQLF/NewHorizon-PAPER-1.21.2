@@ -1,0 +1,214 @@
+title: ':offset_-48::profile:'
+default: true
+permission: playerprofile.menus.menu
+rows: 5
+layout:
+- 'X        '
+- K     OhH
+- '       cB'
+- '    p ZlC'
+- aAtod  bg
+icons:
+  X:
+    display: '&8Retour'
+    amount: 1
+    material: PAPER
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+    actions:
+    - 'console: dmenu open main_menu %playerprofile_viewer%'
+  A:
+    display: '&7Familiers'
+    amount: 1
+    material: PAPER
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+    actions:
+    - 'player: pets'
+  o:
+    display: '&7HDV'
+    amount: 1
+    material: PAPER
+    lore:
+    - ' '
+    - '&7Disponible prochainement'
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+  t:
+    display: '&7Echanger'
+    amount: 1
+    material: PAPER
+    lore:
+    - ' '
+    - '&7Disponible prochainement'
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+  a:
+    display: '&7Ajouter'
+    amount: 1
+    material: PAPER
+    lore:
+    - ' '
+    - '&7Disponible prochainement'
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+  d:
+    display: '&7Duel'
+    amount: 1
+    material: PAPER
+    lore:
+    - ' '
+    - '&7Disponible prochainement'
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+  Z:
+    display: '&7Informations'
+    amount: 1
+    material: PAPER
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+  p:
+    display: '&7Monnaies'
+    amount: 1
+    material: PAPER
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+  G:
+    display: '&7Ile'
+    amount: 1
+    material: PAPER
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+  P:
+    display: '&7%owner%'
+    amount: 1
+    material: PAPER
+    lore:
+    - ' '
+    - '&fStatus:'
+    - ' '
+    - '&f"%playerprofile_status%"'
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 10077
+    actions:
+    - 'player: profile change-status'
+  K:
+    display: '&7%owner%'
+    amount: 1
+    material: PLAYER_HEAD
+    lore:
+    - ' '
+    - '&fStatus:'
+    - ' '
+    - '&f"%playerprofile_status%"'
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 1
+    actions:
+    - 'player: profile change-status'
+  H: # Hat Cosmetic
+    display: '&f'
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 0
+    type: HAT
+  B: # BackPack/Bag Cosmetic
+    display: '&f'
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 0
+    type: BACKPACK
+  C: # Off_Hand/Cane Cosmetic
+    display: '&f'
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 0
+    type: OFF_HAND
+  g: # Balloon Cosmetic
+    display: '&f'
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 0
+    type: BALLOON
+  h: # helmet Equipment
+    display: '&f'
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 0
+    type: HELMET
+  c: # chestplate Equipment
+    display: '&f'
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 0
+    type: CHEST_PLATE
+  l: # leggings Equipment
+    display: '&f'
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 0
+    type: LEGGINGS
+  b: # boots Equipment
+    display: '&f'
+    lore: []
+    unbreakable: false
+    glow: false
+    hide-attributes: true
+    custom-model-data: 0
+    type: BOOTS
+  O: # Online/Offline Status
+    online:
+      display: '&aEn ligne'
+      material: PAPER
+      lore: []
+      unbreakable: false
+      glow: true
+      hide-attributes: true
+      custom-model-data: 10094
+    offline:
+      display: '&cDéconnecter'
+      material: PAPER
+      lore: []
+      unbreakable: false
+      glow: false
+      hide-attributes: true
+      custom-model-data: 10093
+    type: STATUS

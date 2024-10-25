@@ -1,0 +1,15 @@
+Id: 09e9dbfc-4407-4d35-b924-829090590533
+DisplayName: Category title
+IconName: Category name
+Icon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3955
+  type: BEDROCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":[{"text":"09e9dbfc-4407-4d35-b924-829090590533","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+    item-name: '{"text":"","extra":["MCPets;09e9dbfc-4407-4d35-b924-829090590533"]}'
+Pets: []
+DefaultCategory: false
+ExcludedCategories: []

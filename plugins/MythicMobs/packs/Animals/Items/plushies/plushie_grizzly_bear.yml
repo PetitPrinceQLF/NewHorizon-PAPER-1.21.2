@@ -1,0 +1,21 @@
+plushie_grizzly_bear:
+
+  Id: PAPER
+  Model: 1508
+  Display: '&fGrizzly Bear Plushie'
+  
+  Type: FURNITURE
+  Furniture:
+    Type: ITEM_FRAME
+    Material: PAPER
+    Model: 1508
+    Health: 2
+    #Barriers:
+    #- 0,0,0 
+    
+  FurnitureSkills:
+  - sound{s=block.wool.place;p=1.8;v=0.8} @selflocation ~onBlockPlace
+  - sound{s=block.wool.hit;p=1.8;v=0.8} @selflocation ~onDamaged
+  - sound{s=block.wool.step;p=1.8;v=0.8} @selflocation ~onBlockRotate
+  - sound{s=block.wool.break;p=1.8;v=0.8} @selflocation ~onBlockBreak
+  - sound{s=entity.axolotl.hurt;p=1.8;v=0.8} @selflocation ~onInteract

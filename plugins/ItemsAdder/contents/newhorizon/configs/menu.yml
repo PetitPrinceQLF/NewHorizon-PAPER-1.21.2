@@ -1,0 +1,55 @@
+info:
+  namespace: "newhorizon"
+font_images:
+
+  single_chest:
+    path: "gui/single_chest.png"
+    y_position: 45
+    show_in_gui: false
+    suggest_in_command: false
+
+  double_chest:
+    path: "gui/double_chest.png"
+    y_position: 45
+    show_in_gui: false
+    suggest_in_command: false
+
+  main_menu:
+    path: "gui/main_menu.png"
+    y_position: 45
+    show_in_gui: false
+    suggest_in_command: false
+
+  worlds:
+    path: "gui/worlds.png"
+    y_position: 45
+    show_in_gui: false
+    suggest_in_command: false
+
+  profile:
+    path: "gui/profile.png"
+    y_position: 81
+    suggest_in_command: false
+
+  pets:
+    path: "gui/pets.png"
+    y_position: 135
+    suggest_in_command: false
+
+  trader:
+    path: "gui/trader.png"
+    y_position: 45
+    show_in_gui: false
+    suggest_in_command: false
+
+items:
+
+  empty:
+    enabled: true
+    display_name: 
+    permission: player
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - gui/empty

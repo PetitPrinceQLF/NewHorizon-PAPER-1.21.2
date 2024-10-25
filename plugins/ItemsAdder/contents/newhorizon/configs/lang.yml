@@ -1,0 +1,15 @@
+info:
+  namespace: "newhorizon"
+minecraft_lang_overwrite:
+      
+  chest:
+    entries:
+      "container.chest": ":offset_-48::single_chest:"
+    languages:
+      - ALL
+
+  double_chest:
+    entries:
+      "container.chestDouble": ":offset_-48::double_chest:"
+    languages:
+      - ALL

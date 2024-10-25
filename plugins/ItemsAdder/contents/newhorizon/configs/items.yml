@@ -1,0 +1,456 @@
+info:
+  namespace: newhorizon
+items:
+
+#Loots
+  grizzly_bear_pelt:
+    display_name: '&fPeau d''ours grizzly'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - items/animals/grizzly_bear_pelt
+
+  alligator_scale:
+    display_name: '&fEcaille d''alligator'
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - items/animals/alligator_scale
+
+#Cubees
+
+
+  cubees-icon-good_cubee:
+    display_name: &e
+    resource:
+      material: PAPER
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - items/cubees/good_cubee
+      model_id: 7191001
+
+  cubees-icon-evil_cubee:
+    display_name: &e
+    resource:
+      material: PAPER
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - items/cubees/evil_cubee
+      model_id: 7191002
+
+  cubees-icon-grass_cubee:
+    display_name: &e
+    resource:
+      material: PAPER
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - items/cubees/grass_cubee
+      model_id: 7191003
+
+  cubees-icon-skeleton_cubee:
+    display_name: &e
+    resource:
+      material: PAPER
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - items/cubees/skeleton_cubee
+      model_id: 7191004
+
+  cubees-icon-stone_cubee:
+    display_name: &e
+    resource:
+      material: PAPER
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - items/cubees/stone_cubee
+      model_id: 7191005
+
+  cubees-icon-water_cubee:
+    display_name: &e
+    resource:
+      material: PAPER
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - items/cubees/water_cubee
+      model_id: 7191006
+
+  cubees-icon-fire_cubee:
+    display_name: &e
+    resource:
+      material: PAPER
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - items/cubees/fire_cubee
+      model_id: 7191007
+
+  cubees-icon-tnt_cubee:
+    display_name: &e
+    resource:
+      material: PAPER
+      generate: true
+      #model_id: Define your custom Model Data 
+      textures: 
+      - items/cubees/tnt_cubee
+      model_id: 7191008
+
+#Icones
+
+  profilehead:
+    display_name: Profile Head
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 1
+      model_path: icones/profilehead
+
+  profilehead_main_menu:
+    display_name: Profile Head
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2
+      model_path: icones/profilehead_main_menu
+
+#Pets
+
+  pet_category_common:
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 121
+      generate: true
+      textures:
+        - gui/icones/pet_category_common.png
+  pet_category_rare:
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 122
+      generate: true
+      textures:
+        - gui/icones/pet_category_rare.png
+  pet_category_epic:
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 123
+      generate: true
+      textures:
+        - gui/icones/pet_category_epic.png
+  pet_category_legendary:
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 124
+      generate: true
+      textures:
+        - gui/icones/pet_category_legendary.png
+
+#Coins
+
+  gold_coin:
+    display_name: Pièce d'or
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+      - items/coins/gold_coin
+
+  gold_coin_pile:
+    display_name: Pile de pièce d'or
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+      - items/coins/gold_coin_pile
+
+  emerald_coin:
+    display_name: Pièce en emeraude
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+      - items/coins/emerald_coin
+
+  emerald_coin_pile:
+    display_name: Pile de pièce en emeraude
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+      - items/coins/emerald_coin_pile
+
+#Token
+
+  common_back_token: 
+    display_name: common_back_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/common_back_token 
+
+  common_pet_token: 
+    display_name: common_pet_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/common_pet_token 
+
+  common_balloon_token: 
+    display_name: common_balloon_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/common_balloon_token 
+
+  common_hand_token: 
+    display_name: common_hand_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/common_hand_token 
+
+  common_hat_token: 
+    display_name: common_hat_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/common_hat_token 
+
+  epic_back_token: 
+    display_name: epic_back_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/epic_back_token 
+
+  epic_pet_token: 
+    display_name: epic_pet_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/epic_pet_token 
+
+  epic_balloon_token: 
+    display_name: epic_balloon_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/epic_balloon_token 
+
+  epic_gesture_token: 
+    display_name: epic_gesture_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/epic_gesture_token 
+
+  epic_hand_token: 
+    display_name: epic_hand_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/epic_hand_token 
+
+  epic_hat_token: 
+    display_name: epic_hat_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/epic_hat_token 
+
+  legendary_back_token: 
+    display_name: legendary_back_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/legendary_back_token 
+
+  legendary_pet_token: 
+    display_name: legendary_pet_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/legendary_pet_token 
+
+  legendary_balloon_token: 
+    display_name: legendary_balloon_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/legendary_balloon_token 
+
+  legendary_gesture_token: 
+    display_name: legendary_gesture_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/legendary_gesture_token 
+
+  legendary_hand_token: 
+    display_name: legendary_hand_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/legendary_hand_token 
+
+  legendary_hat_token: 
+    display_name: legendary_hat_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/legendary_hat_token 
+
+  limited_back_token: 
+    display_name: limited_back_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/limited_back_token 
+
+  limited_balloon_token: 
+    display_name: limited_balloon_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/limited_balloon_token 
+
+  limited_gesture_token: 
+    display_name: limited_gesture_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/limited_gesture_token 
+
+  limited_hand_token: 
+    display_name: limited_hand_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/limited_hand_token 
+
+  limited_hat_token: 
+    display_name: limited_hat_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/limited_hat_token 
+
+  rare_back_token: 
+    display_name: rare_back_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/rare_back_token 
+
+  rare_pet_token: 
+    display_name: rare_pet_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/rare_pet_token 
+
+  rare_balloon_token: 
+    display_name: rare_balloon_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/rare_balloon_token 
+
+  rare_gesture_token: 
+    display_name: rare_gesture_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/rare_gesture_token 
+
+  rare_hand_token: 
+    display_name: rare_hand_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/rare_hand_token 
+
+  rare_hat_token: 
+    display_name: rare_hat_token 
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/token/rare_hat_token 
+
+
+#Spawner egg
+
+  spawner_egg: 
+    display_name: spawn_egg
+    permission: player 
+    resource: 
+      material: PAPER 
+      generate: true 
+      textures: 
+      - items/spawn_egg

@@ -1,0 +1,16 @@
+grizzly_bear_spawns:
+  Action: ADD
+  Type: grizzly_bear
+  Chance: 0.015
+  Priority: 10
+  UseWorldScaling: true
+  Worlds: world_resource
+  PositionType: LAND
+  #Biomes: BIRCH_FOREST
+  # I got reports that this option is iffy, you can set the biomes below.
+  Conditions:
+  - outside{} true
+  - biome{b=minecraft:birch_forest,minecraft:forest} true
+  - onblock{m=GRASS_BLOCK} true
+  - mobsInRadius{types=grizzly_bear;amount=>5;radius=60} false 
+  - mobsinchunk{a=<3} true

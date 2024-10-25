@@ -1,0 +1,105 @@
+enabled: true
+
+
+items:
+
+  SWORDS:
+    wraps:
+      1:
+        permission: 'player'
+        uuid: 'glacial_sword'
+        id: 'itemsadder:newhorizon:glacial_sword_netherite'
+        name: ''
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        physical:
+          id: itemsadder:newhorizon:glacial_sword_token
+          name: Modification épée glacière
+          keep-after-unwrap: true
+          lore:
+            - <green>Appliquez-le à un outil pour utiliser cette modification !
+
+  PICKAXES:
+    wraps:
+      1:
+        permission: 'player'
+        uuid: 'glacial_pickaxe'
+        id: 'itemsadder:newhorizon:glacial_pickaxe_netherite'
+        name: ''
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        physical:
+          id: itemsadder:newhorizon:glacial_pickaxe_token
+          name: Modification pioche glacière
+          keep-after-unwrap: true
+          lore:
+            - <green>Appliquez-le à un outil pour utiliser cette modification !
+
+  AXES:
+    wraps:
+      1:
+        permission: 'player'
+        uuid: 'glacial_axe'
+        id: 'itemsadder:newhorizon:glacial_axe_netherite'
+        name: ''
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        physical:
+          id: itemsadder:newhorizon:glacial_axe_token
+          name: Modification hache glacière
+          keep-after-unwrap: true
+          lore:
+            - <green>Appliquez-le à un outil pour utiliser cette modification !
+
+  HOES:
+    wraps:
+      1:
+        permission: 'player'
+        uuid: 'glacial_hoe'
+        id: 'itemsadder:newhorizon:glacial_hoe_netherite'
+        name: ''
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        physical:
+          id: itemsadder:newhorizon:glacial_hoe_token
+          name: Modification houe glacière
+          keep-after-unwrap: true
+          lore:
+            - <green>Appliquez-le à un outil pour utiliser cette modification !
+
+  SHOVELS:
+    wraps:
+      1:
+        permission: 'player'
+        uuid: 'glacial_shovel'
+        id: 'itemsadder:newhorizon:glacial_shovel_netherite'
+        name: ''
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        physical:
+          id: itemsadder:newhorizon:glacial_shovel_token
+          name: Modification pelle glacière
+          keep-after-unwrap: true
+          lore:
+            - <green>Appliquez-le à un outil pour utiliser cette modification !
+
+  BOW:
+    wraps:
+      1:
+        permission: 'player'
+        uuid: 'glacial_bow'
+        id: 'itemsadder:newhorizon:glacial_bow'
+        name: ''
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        physical:
+          id: itemsadder:newhorizon:glacial_bow_token
+          name: Modification pelle glacière
+          keep-after-unwrap: true
+          lore:
+            - <green>Appliquez-le à un outil pour utiliser cette modification !
+
+
+
+
+config: 1

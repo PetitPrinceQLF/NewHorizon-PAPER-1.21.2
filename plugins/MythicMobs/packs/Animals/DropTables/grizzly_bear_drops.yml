@@ -1,0 +1,7 @@
+grizzly_bear_drops:
+  MinItems: 2
+  MaxItems: 3
+  Drops:
+  - EXP 6-11 100%
+  - BONE 4-7 100%
+  - grizzly_bear_pelt 1-3 80%

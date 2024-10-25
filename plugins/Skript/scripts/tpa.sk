@@ -1,0 +1,56 @@
+on load:
+    delete {Teleports::*}
+
+command /tpdeny [<player>]:
+    trigger:
+        if {Teleports::%arg-1%%executor%} is set:
+            send "&f &cVous avez refusé &f%arg-1%&c demande de téléportation." to executor
+            send "&f &f%player%&c a refusé votre demande de téléportation." to arg-1
+            delete {Teleports::%arg-1%%executor%}
+        else:
+            send "&f &cIl n'y a pas de demande de téléportation en attente de la part de ce joueur."
+
+command /tpa [<player>]:
+    trigger:
+        if {Teleports::%executor%%arg-1%} is not set:
+            send "&f &bVous avez envoyé une demande de téléportation à &f%arg-1%&b." to executor
+            send "&f &f%executor% &bsouhaite se téléporter auprès de vous." to arg-1
+            send "&bUtiliser &f/tpaccept %executor% &bpour accepter cette téléportation." to arg-1
+            set {Teleports::%executor%%arg-1%} to "To"
+            wait 60 seconds
+            delete {Teleports::%executor%%arg-1%}
+        else:
+            send "&f &cVous avez déjà envoyé une demande de téléportation à ce joueur." to executor
+
+command /tpaccept [<player>]:
+    trigger:
+        if {Teleports::%arg-1%%executor%} is "To":
+            set {Teleporting::%arg-1%} to true
+            delete {Teleports::%arg-1%%executor%}
+            if {Teleporting::%arg-1%} is set:
+                play sound "entity.enderman.teleport" with volume 1 and pitch 1.5 to arg-1
+                play sound "entity.enderman.teleport" with volume 3 and pitch 1 at arg-1
+                apply blindness to arg-1 for 4 seconds
+                send action bar "&f &bTéléportation dans 3s" to arg-1
+                wait 1 second
+            if {Teleporting::%arg-1%} is set:
+                send action bar "&f &bTéléportation dans 2s" to arg-1
+                wait 1 second
+            if {Teleporting::%arg-1%} is set:
+                send action bar "&f &bTéléportation dans 1s" to arg-1
+                wait 1 second
+            if {Teleporting::%arg-1%} is set:
+                send action bar "&f &bTéléportation" to arg-1
+                teleport arg-1 to executor
+                delete {Teleporting::%arg-1%}
+                wait 10 tick
+                play sound "item.totem.use" with volume 0.5 and pitch 1 at arg-1
+                draw 20 totem of undying at location 1 meter above arg-1 with offset vector(0, 0, 0) with extra 0.5
+                wait 0.3 second
+                draw 50 totem of undying at location 1 meter above arg-1 with offset vector(0, 0, 0) with extra 0.7
+                draw 50 poof at location 1 meter above arg-1 with offset vector(0, 0, 0) with extra 0.7
+
+on player move:
+    if {Teleporting::%player%} is set:
+        delete {Teleporting::%player%}
+        send action bar "&f &cTéléportation annulée" to player

@@ -1,0 +1,17 @@
+### Munch Interaction
+
+alligator_baby_munch_parse:
+  Conditions:
+  - onground{} true cancel
+  Skills:
+  - CancelEvent
+  - skill{s=alligator_baby_munch_activate}
+  
+alligator_baby_munch_activate:
+  Condition:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  ### Hey, guess who, if you change "munch" on the line below to "yap" it'll add some cartoony YAP YAP YAP effects.
+  - state{state=munch;li=1;n=false;speed=1} @self
+  - sound{s=entity.zoglin.ambient;p=1.9;v=1} @self

@@ -1,0 +1,71 @@
+# Tool to edit minimessage texts easily: https://webui.advntr.dev/
+plugin-name: CinematicStudio
+editor-input-command-header: |2-
+
+  <color:#36ffbc>Waiting for input command:</color>
+editor-input-command-click-to-cancel-text: <gray>- </gray><yellow><gold><b>[Click]</b></gold>
+  to <color:#abab39>cancel</color>.</yellow>
+editor-input-command-click-to-cancel-hover: <yellow>Click to cancel the input.</yellow>
+editor-input-command-location-click-here-text: <gray>- </gray><color:#36ffbc><gold><b>[Click]</b></gold>
+  to set location here.</color>
+editor-input-command-click-here-hover: <yellow>Click to confirm</yellow>
+editor-input-command-manual-text: <gray>- </gray><color:#36ffbc>Use <dark_aqua>{0}</dark_aqua></color>
+editor-input-command-no-scheduled: <gray>No scheduled input.</gray>
+editor-input-command-location-invalid: <yellow>Invalid location provided!</yellow>
+editor-input-command-boolean-invalid: '<yellow>Invalid boolean provided. <dark_aqua>Valid:
+  <gray><b>true</b></gray>, <gray><b>false</b></gray>.</dark_aqua></yellow>'
+editor-input-command-integer-invalid: <yellow>Invalid integer provided. <dark_aqua>Insert
+  a valid number.</dark_aqua></yellow>
+editor-input-command-enum-invalid: '<yellow>Invalid {0} provided. <dark_aqua>Valid:
+  </dark_aqua><b><gray>{1}</gray></b></yellow>'
+editor-input-command-not-supported: <red>Input <yellow>{0}</yellow> not supported.</red>
+editor-input-command-accepted: '<color:#7dffde>Input accepted: <gray>{0}</gray></color>'
+editor-input-command-cancelled: <yellow>Cancelled input.</yellow>
+reload-command-success: <color:#36ffbc>Reloaded!</color>
+wrong-command-usage: <yellow>Wrong command usage!</yellow>
+player-not-found: '<yellow>Player not found: <gray>{0}</gray></yellow>'
+cinematic-command-stopped-for-player: '<color:#36ffbc>Stopped animation for: <gray>{0}</gray></color>'
+cinematic-command-no-animation-playing-for-player: '<color:#d9db40>No animation playing
+  for: <gray>{0}</gray></color>'
+cinematic-not-found: '<yellow>Cinematic not found: <gray>{0}</gray></yellow>'
+cinematic-command-play-for-player: '<color:#36ffbc>Playing animation to: <gray>{0}</gray>'
+cinematic-command-play-stopped-already-playing-for-player: '<color:#949ae0>Stopped
+  already playing animation for: <gray>{0}</gray></color>'
+no-permission: '<yellow>No permission: {0}</yellow>'
+other-player-no-permission: '<yellow>Player <gray>{0}</gray> has no permission: {1}</yellow>'
+editor-record-multiple-actors: <yellow>Please specify a name for the new multi-actor
+  recording and the list of players.</yellow>
+editor-record-multiple-actors-initiator-stop-guide: <aqua>Started recording <gray>{0}</gray>
+  players!</aqua> <gold>Ask them to use the <yellow><b>hotkeys</b></yellow> when they
+  are done recording to <red>stop</red>!</gold>
+editor-record-actor-stop-guide: ' <aqua>Started recording!</aqua> <gold>Press <yellow><b>SPACE+SHIFT</b></yellow>
+  <gray>(jump + sneak)</gray> to <b><red>stop</red></b> recording. Or press <b><yellow>E</yellow></b>
+  and click <yellow><b>outside</b></yellow> your <yellow><b>inventory</b></yellow>
+  <gray>(the dark part outside the inventory)</gray>.</gold>'
+editor-record-actor-specify-name: <yellow>Please specify a name for the new actor
+  recording!</yellow>
+editor-record-actor-stopped-recording: <color:#36ffbc>Stopped recording.
+editor-record-actor-teleported-during-recording: <gray>You teleported during recording!</gray>
+editor-record-actor-quit-during-recording: Player {0} quit during actor recording.
+editor-new-cinematic-exists: <yellow>Cinematic {0} already exists.
+editor-timeline-node-camera-name: <color:#36ffbc>Camera</color>
+editor-timeline-node-camera-lore:
+- '<color:#36ffbc>Tick: <white>{tick}</white></color>'
+- '<color:#36ffbc>Row: <white>{row}</white></color>'
+- '<color:#36ffbc>Duration: <white>{duration}</white></color>'
+- '<color:#36ffbc>Ends at tick: <white>{end_tick}</white></color>'
+- '<color:#36ffbc>Instant teleport: <white>{instant_teleport}</white></color>'
+- '<color:#36ffbc>Mode: <white>{mode}</white></color>'
+- '<color:#36ffbc>Interpolation: <white>{interpolation}</white></color>'
+- ''
+- ѕʜɪꜰᴛ+ʟᴇꜰᴛᴄʟɪᴄᴋ > ᴍᴏᴠᴇ
+- ʀɪɢʜᴛᴄʟɪᴄᴋ > ᴏᴘᴛɪᴏɴѕ
+editor-timeline-node-actor-play-name: <color:#36ffbc>Actor Recording Play</color>
+editor-timeline-node-actor-play-lore:
+- '<color:#36ffbc>Tick: <white>{tick}</white></color>'
+- '<color:#36ffbc>Row: <white>{row}</white></color>'
+- '<color:#36ffbc>Duration: <white>{duration}</white></color>'
+- '<color:#36ffbc>Ends at tick: <white>{end_tick}</white></color>'
+- ''
+- ѕʜɪꜰᴛ+ʟᴇꜰᴛᴄʟɪᴄᴋ > ᴍᴏᴠᴇ
+- ʀɪɢʜᴛᴄʟɪᴄᴋ > ᴏᴘᴛɪᴏɴѕ

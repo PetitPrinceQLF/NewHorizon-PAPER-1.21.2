@@ -1,0 +1,4 @@
+animations:
+  flyaway:
+    mm-id: leave-flyaway
+    permission: "animcore.leave.flyaway"

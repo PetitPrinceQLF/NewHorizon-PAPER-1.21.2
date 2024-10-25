@@ -1,0 +1,30 @@
+#-----------------------------------------------------------------------------------------------------
+options:
+    amount: 5                       #Amount of particles, big difference
+    samount: 5                      #Amount of particles, small difference
+    height: 1                       #Height of point from where is blood spawned
+    type: "all"                     #Set type of victim, which should drop blood(all/player/monster/mob)
+    color: redstone block break     #Color of blood(redstone/blue wool/green wool/lime wool)
+#function
+    #Description    #JPBlood(<location>, "particle name" , integer , integer , height of spawn)
+    #Example        #JPBlood(location of victim , "blue wool block break" , 10 , 10 , 1.25)
+#-----------------------------------------------------------------------------------------------------
+
+function JPBlood(loc: location, color: particle effect, samount: integer, amount: integer, height: number):
+    loop {_amount} times:
+        play {_samount} {_color} at ({_loc} ~ vector(0,{_height},0))
+
+on damage:
+    if attacker is a player:#Edit "player" if you want to drop blood from player, when he's attacked 
+        set {_l} to (location of victim)
+        if {@type} is "all":
+            JPBlood({_l},{@color},{@samount},{@amount},{@height})
+        else if {@type} is "player":
+            if victim is a player:
+                JPBlood({_l},{@color},{@samount},{@amount},{@height})
+        else if {@type} is "monster":
+            if victim is a monster:
+                JPBlood({_l},{@color},{@samount},{@amount},{@height})
+        else if {@type} is "mob":
+            if victim is a mob:
+                JPBlood({_l},{@color},{@samount},{@amount},{@height})

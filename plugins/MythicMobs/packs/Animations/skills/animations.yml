@@ -1,0 +1,83 @@
+
+anim-death-blackhole:
+  Cooldown: 1
+  Skills:
+  - sound{s=block.respawn_anchor.set_spawn;v=1}
+  - delay 24
+  - sound{s=entity.enderman.teleport;v=1;p=0.4}
+  - delay 21
+  - remove @self
+
+anim-death-sword:
+  Cooldown: 1
+  Skills: 
+  - sound{s=block.respawn_anchor.set_spawn;v=1}
+  - delay 25
+  - sound{s=item.totem.use;v=1}
+  - particlering{r=3;points=20;particles=reddust;color=#2199de} @self
+  - delay 13
+  - remove @self
+
+anim-join-appear:
+  Cooldown: 1
+  Skills:
+  - delay 15
+  - sound{s=entity.generic.big_fall;v=1;p=0.7}
+  - delay 5
+  - remove @self
+
+anim-join-allay:
+  Cooldown: 1
+  Skills: 
+  - delay 20
+  - sound{s=entity.allay.ambient_with_item;v=1}
+  - delay 15 
+  - sound{s=entity.allay.ambient_with_item;v=1}
+  - delay 20
+  - sound{s=entity.generic.big_fall;v=1;p=0.7}
+  - delay 66
+  - remove @self
+
+anim-leave-dighole:
+  Cooldown: 1
+  Skills: 
+  - delay 13
+  - sound{s=block.gravel.break;v=1}
+  - delay 11
+  - sound{s=block.gravel.break;v=1}
+  - delay 9
+  - sound{s=block.gravel.break;v=1}
+  - delay 50
+  - remove @self
+
+
+anim-leave-disappear:
+  Cooldown: 1
+  Skills:
+  - delay 52
+  - remove @self
+
+anim-respawn-whitehole:
+  Cooldown: 1
+  Skills:
+  - sound{s=block.respawn_anchor.set_spawn;v=1}
+  - delay 24
+  - sound{s=entity.enderman.teleport;v=1;p=0.4}
+  - delay 21
+  - remove @self
+anim-respawn-fall:
+  Cooldown: 1
+  Skills:
+  - delay 13
+  - sound{s=entity.generic.big_fall;v=1;p=0.7}
+  - delay 50
+  - remove @self
+
+anim-ban-banned_text:
+  Cooldown: 1
+  Skills: 
+  - delay 40 
+  - sound{s=block.anvil.land;v=1;p=0.3}
+  - effect:lightning @self
+  - delay 40
+  - remove @self

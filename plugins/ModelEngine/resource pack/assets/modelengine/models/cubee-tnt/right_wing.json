@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/tnt_cubee"},"elements":[{"from":[8.0,3.7842503,8.013187],"to":[8.0,10.46575,15.336812],"faces":{"east":{"uv":[0.0,0.0,3.75,3.25],"tintindex":0,"rotation":0,"texture":"#0"},"west":{"uv":[3.75,0.0,0.0,3.25],"tintindex":0,"rotation":0,"texture":"#0"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

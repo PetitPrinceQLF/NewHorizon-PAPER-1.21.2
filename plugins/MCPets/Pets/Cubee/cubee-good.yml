@@ -1,0 +1,17 @@
+Id: cubee-good
+MythicMob: cubee-good
+Permission: mcpet.cubee-good
+Mountable: false
+Distance: 6
+SpawnRange: 3
+ComingBackRange: 4
+Icon:
+  Name: Cubee
+  Material: PAPER
+  CustomModelData: 7191001
+  Description:
+  - '        '
+  - '§8Effets:'
+  - '        '
+  - §8Regénération §4+2❤️§8/20s
+Skins: {}

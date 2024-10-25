@@ -1,0 +1,22 @@
+Id: rare
+DisplayName: rare
+IconName: rare
+Icon:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3955
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"pet_category_rare","italic":false,"color":"white"}'
+    custom-model-data: 122
+    custom: H4sIAAAAAAAA/wXBSwqAMAwFwIerNjtPWEL70Cz6IQ2Int4ZAQRiwb61NXrCYQ3nYpSqwWv6W1ydCXlo515aCRl87un2zQH8xqIekkIAAAA=
+Pets:
+- Capybara_Mount
+- Horse_Pegasus
+- Horse_Spartan
+- Kitsune_Normal
+- Phantom_Ghost
+- Phoenix_Flame
+DefaultCategory: false
+ExcludedCategories: []

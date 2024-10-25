@@ -1,0 +1,16 @@
+### Standard Bite Attack
+  
+grizzly_bear_bite_parse:
+  Skills:
+  - CancelEvent
+  - skill{s=grizzly_bear_bite_activate;cd=2}
+  
+grizzly_bear_bite_activate:
+  Condition:
+  - offgcd
+  Skills:
+  - gcd{ticks=25}
+  - state{state=bite;li=1;n=false;speed=1} @self
+  - sound{s=entity.polar_bear.warning;p=0.8;v=0.8} @self
+  - delay 16
+  - damage{amount=9} @target

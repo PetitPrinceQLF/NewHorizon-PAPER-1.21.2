@@ -1,0 +1,63 @@
+{
+   "newhorizon.spawn":{
+		 "sounds": [
+			"newhorizon:ambient/spawn"
+		 ]
+	},
+   "newhorizon.server_connect":{
+		 "sounds": [
+			"newhorizon:ambient/server_connect"
+		 ]
+	},
+   "newhorizon.":{
+		 "sounds": [
+			"newhorizon:ambient/scream"
+		 ]
+	},
+   "newhorizon.voices.male1":{
+		 "sounds": [
+			"newhorizon:voices/male1"
+		 ]
+	},
+   "newhorizon.voices.male2":{
+		 "sounds": [
+			"newhorizon:voices/male2"
+		 ]
+	},
+   "newhorizon.voices.male3":{
+		 "sounds": [
+			"newhorizon:voices/male3"
+		 ]
+	},
+   "newhorizon.voices.male4":{
+		 "sounds": [
+			"newhorizon:voices/male4"
+		 ]
+	},
+   "newhorizon.voices.female1":{
+		 "sounds": [
+			"newhorizon:voices/female1"
+		 ]
+	},
+   "newhorizon.voices.female2":{
+		 "sounds": [
+			"newhorizon:voices/female2"
+		 ]
+	},
+   "newhorizon.voices.female3":{
+		 "sounds": [
+			"newhorizon:voices/female3"
+		 ]
+	},
+   "newhorizon.voices.female4":{
+		 "sounds": [
+			"newhorizon:voices/female4"
+		 ]
+	},
+
+   "newhorizon.pug_bark":{
+		 "sounds": [
+			"newhorizon:mobs/pug_bark"
+		 ]
+	}
+}

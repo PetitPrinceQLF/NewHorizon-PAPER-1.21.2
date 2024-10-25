@@ -1,0 +1,95 @@
+#BlackList | Entities in the list will not be able to be caught.
+#Whitelist | Only entities in the list can be caught.
+allowed_entites:
+  enabled: true
+  mode: BLACKLIST
+  list:
+    - "warden"
+
+#Configuration of the cage item
+cage_item:
+  enchanted: false
+  name: "&fPiège"
+  ignore_line_no_placeholder: true
+  lore:
+    - "&f"
+
+#Can traps be thrown like a poke ball?
+trap_throw:
+  enable: true
+  trap_chance: 80
+  break_chance: 20
+  trap_mob_throw: false
+
+permissions:
+  block_use:
+    enabled: false
+    permission: "nekotraps.block.use"
+  throw_use:
+    enabled: false
+    permission: "nekotraps.throw.use"
+
+crafting:
+  enabled: true
+  pattern:
+    - "BBB"
+    - "BTB"
+    - "BBB"
+  ingredients:
+    B: "BARREL"
+    T: "TRIPWIRE_HOOK"
+
+trap_break_in_open: true
+allow_block_trap_in_protected_region: true
+
+hooks:
+  MythicMobs:
+    enabled: true
+
+    allowed_mobs:
+      enabled: false
+      ignore_vanillas_entities: false
+      mode: BLACKLIST
+      list:
+        - "SkeletalKnight"
+
+world_config:
+  enabled: true
+  mode: BLACKLIST
+  list:
+    - "World1"
+    - "World2"
+
+cage_config:
+  pressure_plate: "ACACIA_PRESSURE_PLATE"
+
+  hitbox_block:
+    material: "DEAD_BUBBLE_CORAL_FAN"
+    data: "[waterlogged=false]"
+
+  placed_block:
+    material: "BARREL"
+    data: "[facing=down, open=true]"
+
+opened_cage_config:
+  center:
+    material: "BARREL"
+    data: "[facing=down, open=true]"
+  north:
+    material: "BARREL"
+    data: "[facing=north, open=false]"
+  south:
+    material: "BARREL"
+    data: "[facing=south, open=false]"
+  east:
+    material: "BARREL"
+    data: "[facing=east, open=false]"
+  west:
+    material: "BARREL"
+    data: "[facing=west, open=false]"
+
+messages:
+  give_message: "&aYou have obtained a NekoTrap!"
+
+plugin:
+  update_checker: false

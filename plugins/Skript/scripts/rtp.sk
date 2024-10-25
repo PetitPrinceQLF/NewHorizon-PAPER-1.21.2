@@ -1,0 +1,64 @@
+options:
+#Minimum amount of blocks farm from X cord to tp to
+	min.x: -10
+#maximum amount of blocks farm from X cord to tp to
+	max.x: 5000
+#Minimum amount of blocks farm from Z cord to tp to
+	min.z: -10
+#maximum amount of blocks farm from Z cord to tp to
+	max.z: 5000
+#Amount of time before the player will be allowed to use the command again
+	cooldown: 1 second
+#Avoid spawning in lava, water and air
+	avoid: air or water block or lava block
+#To add worlds it would look like 
+#	worlds: "world" or "world_nether" or "world_the_end"
+	worlds: "world_resource"
+
+Command /rtp [<player>]:
+	permission: admin
+	trigger:
+		if difference between {cooldowns::randomtp::%arg-1%} and now < {@cooldown}:
+		else:
+			rtp(arg-1)
+					
+function rtp(p: player):
+	delete {movewait.%{_p}%}
+	set {_loc::old} to {_p}'s location
+	continueRtpLOOP({_p}, {_loc::old})
+	   
+function continueRtpLOOP(p: player, oldloc: location):
+	apply blindness to {_p} for 10 seconds
+
+	if {_p}'s location is {_oldloc}:
+
+		send action bar "&f &bRecherche d'un endroit sûr" to {_p}
+
+		play sound "entity.enderman.teleport" with volume 1 and pitch 1.5 to {_p}
+		play sound "entity.enderman.teleport" with volume 3 and pitch 1 at {_p}
+
+		set {_loc::new} to location at random number between {@min.x} and {@max.x}, 50, random number between {@min.z} and {@max.z} in world "world_resource"
+		loop blocks above {_loc::new}:
+			if loop-block and block above loop-block are air:
+				if block under loop-block is not air or water or lava:
+					set {_loc::new} to location of loop-block
+
+					send action bar "&f &bTéléportation" to {_p}
+					remove blindness from {_p}
+
+					teleport {_p} to {_loc::new}
+
+					wait 20 tick
+					play sound "item.totem.use" with volume 0.5 and pitch 1 at {_p}
+					draw 20 totem of undying at location 1 meter above {_p} with offset vector(0, 0, 0) with extra 0.5
+					wait 0.3 second
+					draw 50 totem of undying at location 1 meter above {_p} with offset vector(0, 0, 0) with extra 0.7
+					draw 50 poof at location 1 meter above {_p} with offset vector(0, 0, 0) with extra 0.7
+
+					set {cooldowns::randomtp::%{_p}%} to now
+					if light level at {_p} <= 2:
+						set block at {_p} to torch
+						stop
+					stop
+		wait 2 ticks
+		continueRtpLOOP({_p}, {_oldloc})

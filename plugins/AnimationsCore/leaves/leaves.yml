@@ -1,0 +1,7 @@
+animations:
+  dighole:
+    mm-id: leave-dighole
+    permission: "animcore.leave.dighole"
+  disappear:
+    mm-id: leave-disappear
+    permission: "animcore.leave.disappear"

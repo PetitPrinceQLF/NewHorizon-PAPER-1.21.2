@@ -1,0 +1,47 @@
+metadata:
+  version: 1.0
+  serverVersion: '1.21.1-119-7cd4f2c (MC: 1.21.1)'
+  bukkitVersion: 1.21.1-R0.1-SNAPSHOT
+  creationDate: '2024-10-16 19:18:38'
+  saveDate: '2024-10-16 19:34:56'
+  author:
+    name: PetitPrinceOff
+    uuid: ce97a2a6-b387-4215-8df1-39692635b5a6
+properties:
+  durationTicks: 50.0
+  usePumpkinHelmet: false
+  useWanderingTraderEggHelmet: false
+  endActions:
+    playerCommands: [
+      ]
+    consoleCommands: [
+      ]
+timelineRows:
+  '0':
+    '2':
+      type: CAMERA
+      pos:
+        x: -299.2694680909325
+        y: 96.67394131870215
+        z: 158.9967738127881
+      rot:
+        x: 23.493133544921875
+        y: 116.86979675292969
+      mode: C
+      interpolation: SMOOTH
+      interpolationFrequency: 15.0
+      instantTeleport: true
+  '1':
+    '0':
+      type: CAMERA
+      pos:
+        x: -316.13527474014023
+        y: 96.86445457681006
+        z: 153.20248123630486
+      rot:
+        x: 21.441598892211914
+        y: -77.88743591308594
+      mode: C
+      interpolation: SMOOTH
+      interpolationFrequency: 15.0
+      instantTeleport: false

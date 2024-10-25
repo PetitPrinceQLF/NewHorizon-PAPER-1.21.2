@@ -1,0 +1,26 @@
+default-status: I am a newbie trying to improve.
+menu:
+  title: '&fꤴ'
+  items:
+    cancel:
+      slot: 0
+      display: '&c'
+      amount: 1
+      material: PAPER
+      lore: []
+      unbreakable: false
+      glow: false
+      hide-attributes: true
+      custom-model-data: 102
+      type: CHANGE_STATUS_CANCEL
+    accept:
+      slot: 1
+      display: '&aAccept'
+      material: PAPER
+      amount: 1
+      lore: []
+      unbreakable: false
+      glow: false
+      hide-attributes: true
+      custom-model-data: 102
+      type: CHANGE_STATUS_ACCEPT

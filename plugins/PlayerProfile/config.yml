@@ -1,0 +1,40 @@
+messages:
+  prefix: '&c[PlayerProfile]: &r'
+  no-permission: '&4You are not allowed to do this!'
+  player-not-exist: '&4The player does not exist on the server.'
+  player-profile-not-public: '&4The profile of the player you are trying to access
+    is private. '
+  reload: '&aThe configuration files have been reloaded.'
+  offline-player: '&4The player is offline.'
+  profile-mode-toggle:
+    private: '&cYour profile is now private, no one but you will be able to see it!'
+    public: '&aNow your profile is public, everyone can see it.'
+  console:
+    first-player-offline: '&4The first player is offline.'
+    open-profile: '&aOpening profile for &6%player%&a.'
+  help-user:
+  - '&m&f              &cPlayerProfile&m&f              '
+  - '&7-/profile - 6eview your profile.'
+  - '&7-/profile <offline-player> - &eview another players profile.'
+  - '&7-/profile public-toggle - &eToggle the profile in public or private mode.'
+  - '&7-/profile help - 6eDisplays help messages.'
+  - '&m&f              &cPlayerProfile&m&f              '
+  help-staff:
+  - '&m&f              &cPlayerProfile&m&f              '
+  - '&7-/profile - 6eview your profile.'
+  - '&7-/profile <offline-player> - &eview another players profile.'
+  - '&7-/profile <offline-player> <player> - &eOpen a players profile to another player.'
+  - '&7-/profile public-toggle - &eToggle the profile in public or private mode.'
+  - '&7-/profile help - 6eDisplays help messages.'
+  - '&7-/profile reload - &eReloads the plugin files.'
+  - '&m&f              &cPlayerProfile&m&f              '
+offline-players: true
+shift-rc-open-profile: true
+database:
+  type: sqlite
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: password
+  table: players
+  database_name: playerprofile

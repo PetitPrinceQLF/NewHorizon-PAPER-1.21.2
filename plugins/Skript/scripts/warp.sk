@@ -1,0 +1,51 @@
+options:
+	prefix: &f
+	
+# -----Permission----- #
+	setwarp: admin
+	Warp: admin
+	delwarp: admin
+
+			
+command /setwarp [<text>]:
+	permission: {@setwarp}
+	permission message: &f &cVous n'avez pas les permissions pour faire ça !
+	trigger:
+		if arg 1 is not set:
+			send "&f &cUtilisation correcte : &a/setwarp"
+		if {Warp.%arg-1%} is set:
+			send "&f &cCe warp a déjà été définie !"
+		if {Warp.%arg-1%} is not set:
+			set {Warp.%arg-1%} to location of player
+			message "&f &2Le warp à été crée !"
+			add arg-1 to {Warps::*}
+
+			
+
+command /delwarp [<text>]:
+	permission: {@delwarp}
+	permission message: &f &cVous n'avez pas les permissions pour faire ça !
+	trigger:
+		if arg-1 is set:
+			delete {Warp.%arg-1%}
+			message "&f &2Le warp à été effacée !"
+			remove arg-1 from {Warps::*}
+
+			
+command /Warp [<text>] [<player>]:
+	permission: {@Warp}
+	permission message: &f &cVous n'avez pas les permissions pour faire ça !
+	aliases: w
+	trigger:
+		if arg 1 is not set:
+			send "{@prefix} &fUtilisation correcte : &a/Warp"
+		else if {warp.%arg-1%} is set:
+			teleport arg-2 to {Warp.%arg-1%}
+			if {Warp.%arg-1%} is not set:
+				message "&f &cCe warp n'existe pas !" to  arg-2
+				
+command /Warps:
+	trigger:
+		message "&bWarps:"
+		loop {Warps::*}:
+			message "  &f&l➟&f %loop-value%"

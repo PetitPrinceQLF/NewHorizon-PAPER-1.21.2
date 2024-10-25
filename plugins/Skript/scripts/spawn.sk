@@ -1,0 +1,43 @@
+#======================#
+#         Spawn        #
+#======================#
+on player move:
+	if {cooldown_spawn.%player%} is true:
+		set {_loc} to location of player
+		set {_prevLoc} to {location.%player%}
+		if {_prevLoc} is set:
+			set {_dist} to distance between {_loc} and {_prevLoc}
+			if {_dist} is greater than 0.1:
+				set {cooldown_spawn.%player%} to false
+	if {cooldown_spawn.%player%} is true:
+		set {cooldown_spawn.%player%} to false
+
+command /spawn:
+	trigger:
+		if {cooldown_spawn.%player%} is not true:
+			set {cooldown_spawn.%player%} to true
+			set {location.%player%} to location of player
+			play sound "entity.enderman.teleport" with volume 1 and pitch 1.5 to player
+			play sound "entity.enderman.teleport" with volume 3 and pitch 1 at player
+			apply blindness to player for 4 seconds
+			send action bar "&bTéléportation dans 3s" to player
+			wait 1 second
+			set {cooldown_spawn.%player%} to true
+			send action bar "&f &bTéléportation dans 2s" to player
+			wait 1 second
+			send action bar "&f &bTéléportation dans 1s" to player
+			wait 1 second
+			send action bar "&f &bTéléportation" to player
+			if {cooldown_spawn.%player%} is true:
+				set {cooldown_spawn.%player%} to false
+				execute console command "/warp spawn %player%"
+				wait 10 tick
+				play sound "item.totem.use" with volume 0.5 and pitch 1 at player
+				draw 20 totem of undying at location 1 meter above player with offset vector(0, 0, 0) with extra 0.5
+				wait 0.3 second
+				draw 50 totem of undying at location 1 meter above player with offset vector(0, 0, 0) with extra 0.7
+				draw 50 poof at location 1 meter above player with offset vector(0, 0, 0) with extra 0.7
+			else:
+				send action bar "&f &cTéléportation annulée" to player
+		else:
+			send "Vous êtes déjà en cours de téléportation." to player

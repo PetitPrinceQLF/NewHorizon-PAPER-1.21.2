@@ -1,0 +1,143 @@
+info:
+  namespace: _iainternal
+huds:
+  small_cooldown_bar:
+    enabled: true
+    show:
+      auto: false
+    type: FRAMES
+    x_position_pixels: -97
+    value:
+      player_stat_name: small_cooldown_bar
+      start: 20
+      max: 20
+      min: 0
+    images:
+      frames:
+        - "_iainternal:small_cooldown_bar_0"
+        - "_iainternal:small_cooldown_bar_1"
+        - "_iainternal:small_cooldown_bar_2"
+        - "_iainternal:small_cooldown_bar_3"
+        - "_iainternal:small_cooldown_bar_4"
+        - "_iainternal:small_cooldown_bar_5"
+        - "_iainternal:small_cooldown_bar_6"
+        - "_iainternal:small_cooldown_bar_7"
+        - "_iainternal:small_cooldown_bar_8"
+        - "_iainternal:small_cooldown_bar_9"
+        - "_iainternal:small_cooldown_bar_10"
+        - "_iainternal:small_cooldown_bar_11"
+        - "_iainternal:small_cooldown_bar_12"
+        - "_iainternal:small_cooldown_bar_13"
+        - "_iainternal:small_cooldown_bar_14"
+        - "_iainternal:small_cooldown_bar_15"
+        - "_iainternal:small_cooldown_bar_16"
+        - "_iainternal:small_cooldown_bar_17"
+        - "_iainternal:small_cooldown_bar_18"
+        - "_iainternal:small_cooldown_bar_19"
+        - "_iainternal:small_cooldown_bar_20"
+font_images:
+  small_cooldown_bar_0:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/0.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_1:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/1.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_2:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/2.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_3:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/3.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_4:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/4.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_5:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/5.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_6:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/6.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_7:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/7.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_8:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/8.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_9:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/9.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_10:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/10.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_11:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/11.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_12:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/12.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_13:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/13.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_14:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/14.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_15:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/15.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_16:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/16.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_17:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/17.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_18:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/18.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_19:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/19.png"
+    y_position: -42
+    scale_ratio: 22
+  small_cooldown_bar_20:
+    suggest_in_command: false
+    path: "hud/small_cooldown_bar/20.png"
+    y_position: -42
+    scale_ratio: 22

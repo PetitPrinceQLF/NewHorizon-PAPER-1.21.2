@@ -1,0 +1,7 @@
+alligator_drops:
+  MinItems: 2
+  MaxItems: 3
+  Drops:
+  - EXP 8-20 100%
+  - alligator_scale 1-4 80%
+  - BONE 2-4 40%

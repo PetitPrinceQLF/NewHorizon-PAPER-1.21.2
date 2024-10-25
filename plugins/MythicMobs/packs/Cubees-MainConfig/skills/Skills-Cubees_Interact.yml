@@ -1,0 +1,30 @@
+Cubees-Interaction:
+  Conditions:
+  - stringEQ{val1="<placeholder.Cubees-Extension-1>";val2="Yes"} cast Cubees-Extension-0
+  - stringEQ{val1="<placeholder.Cubees-Extension-1>";val2="Yes"} cast Cubees-Extension-1
+  - stringEQ{val1="<placeholder.Cubees-Extension-2>";val2="Yes"} cast Cubees-Extension-2
+  - stringEQ{val1="<placeholder.Cubees-Extension-3>";val2="Yes"} cast Cubees-Extension-3
+  - stringEQ{val1="<placeholder.Cubees-Extension-4>";val2="Yes"} cast Cubees-Extension-4
+  - stringEQ{val1="<placeholder.Cubees-Extension-5>";val2="Yes"} cast Cubees-Extension-5
+  - stringEQ{val1="<placeholder.Cubees-Extension-6>";val2="Yes"} cast Cubees-Extension-6
+  - stringEQ{val1="<placeholder.Cubees-Extension-7>";val2="Yes"} cast Cubees-Extension-7
+  - stringEQ{val1="<placeholder.Cubees-Extension-8>";val2="Yes"} cast Cubees-Extension-8
+  - stringEQ{val1="<placeholder.Cubees-Extension-9>";val2="Yes"} cast Cubees-Extension-9
+  - stringEQ{val1="<placeholder.Cubees-Extension-10>";val2="Yes"} cast Cubees-Extension-10
+  - stringEQ{val1="<placeholder.Cubees-Extension-11>";val2="Yes"} cast Cubees-Extension-11
+  - stringEQ{val1="<placeholder.Cubees-Extension-12>";val2="Yes"} cast Cubees-Extension-12
+  - stringEQ{val1="<placeholder.Cubees-Extension-13>";val2="Yes"} cast Cubees-Extension-13
+  - stringEQ{val1="<placeholder.Cubees-Extension-14>";val2="Yes"} cast Cubees-Extension-14
+  - stringEQ{val1="<placeholder.Cubees-Extension-15>";val2="Yes"} cast Cubees-Extension-15
+  - stringEQ{val1="<placeholder.Cubees-Extension-16>";val2="Yes"} cast Cubees-Extension-16
+  - stringEQ{val1="<placeholder.Cubees-Extension-17>";val2="Yes"} cast Cubees-Extension-17
+  - stringEQ{val1="<placeholder.Cubees-Extension-18>";val2="Yes"} cast Cubees-Extension-18
+  - stringEQ{val1="<placeholder.Cubees-Extension-19>";val2="Yes"} cast Cubees-Extension-19
+  - stringEQ{val1="<placeholder.Cubees-Extension-20>";val2="Yes"} cast Cubees-Extension-20
+  - stringEQ{val1="<placeholder.Cubees-Extension-21>";val2="Yes"} cast Cubees-Extension-21
+  - stringEQ{val1="<placeholder.Cubees-Extension-22>";val2="Yes"} cast Cubees-Extension-22
+  - stringEQ{val1="<placeholder.Cubees-Extension-23>";val2="Yes"} cast Cubees-Extension-23
+  - stringEQ{val1="<placeholder.Cubees-Extension-24>";val2="Yes"} cast Cubees-Extension-24
+  - stringEQ{val1="<placeholder.Cubees-Extension-25>";val2="Yes"} cast Cubees-Extension-25
+  Skills:
+  - state{mid=cubee-<caster.var.cubeemodel>;s=pet;li=3;lo=3;override=true;loop=ONCE} @self ?~owner

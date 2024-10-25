@@ -1,0 +1,21 @@
+Trader:
+  Type:  VILLAGER
+  AIGoalSelectors:
+  - clear
+  - lookatplayers
+  AITargetSelectors:
+  - clear
+  - players
+  Options:
+    Collidable: false
+    MovementSpeed: 0
+    Invincible: true
+    Despawn: persistent
+    Silent: true
+    PreventOtherDrops: true
+  Skills:
+  - model{mid=trader;damagetint=false} @self ~onSpawn
+  - model{mid=trader;damagetint=false} @self ~onLoad
+  - skill{s=NpcTalk} @self ~onInteract
+  - skill{s=NpcIdle1} @self ~onTimer:100
+  - skill{s=traderNpcInteract} @self ~onInteract

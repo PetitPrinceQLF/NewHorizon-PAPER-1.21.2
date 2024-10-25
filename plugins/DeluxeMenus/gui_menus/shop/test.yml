@@ -1,0 +1,24 @@
+menu_title: 'test'
+open_command: test
+size: 54
+update_interval: 1
+items:
+  'cosmetics1':
+    material: DIRT
+    slots:
+      - 0
+    display_name: '&7Clé cosmétique'
+    lore:
+      - ""
+      - '&fInformation:'
+      - ' &fPrix : 3'
+      - ""
+      - '&f - Pour acheter'
+    left_click_commands:
+      - "checkitem:amt:3:material:PAPER:custommodeldata:10002"
+      - "if checkitem == true"
+      - "[console] give %player% dirt 10"
+      - "[console] takeitem %player% paper 3"
+      - "else"
+      - "message:&cVous n'avez pas assez de papiers custom."
+      - "sound:ENTITY_VILLAGER_NO"

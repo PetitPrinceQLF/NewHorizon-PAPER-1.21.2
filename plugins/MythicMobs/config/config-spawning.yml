@@ -1,0 +1,16 @@
+Configuration:
+  Spawners:
+    DisableCommandSaving: false
+  RandomSpawning:
+    DisableVanillaSpawns: false
+    GenerateSpawnPoints: true
+    SpawnRadiusPerPlayer: 64
+    SpawnRadiusPerPlayerMin: 12
+    SpawnRadiusPerPlayerY: 16
+    PlayerClusterDistance: 24.0
+    LimitMultiplier: 1.2
+    GroupMultiplier: 0.1
+    SpawningLimit: -1
+    IgnoreVanillaMobs: false
+    IgnoreUnnaturalMobs: false
+    ReplaceObeysCap: false

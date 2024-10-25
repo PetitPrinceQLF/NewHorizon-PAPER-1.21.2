@@ -1,0 +1,91 @@
+menu_title: ':offset_-48::worlds:'
+open_command: []
+size: 27
+update_interval: 1
+items:
+
+  'back':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 0
+    display_name: '&8Retour'
+    left_click_commands:
+      - "[openguimenu] main_menu"
+
+  'help':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 8
+    display_name: '&bQu''est-ce que les mondes'
+#    lore:
+#      - ""
+#      - '&fLa forge est un endroit où vous pouvez'
+#      - '&fcombiner différents ingrédients pour'
+#      - '&fcréer des armes et des outils puissants.'
+#      - ""
+
+  'survival':
+    material: itemsadder-newhorizon:empty
+    slots:
+      - 9
+      - 10
+      - 11
+      - 18
+      - 19
+      - 20
+    display_name: '&bSurvie'
+    lore:
+      - '&fInformation:'
+      - ' &f∙ Accédez au monde survie.'
+      - ""
+      - ' &f∙ PVP : &aActivé'
+      - ' &f∙ Perte d''inventaire : &aActivé'
+      - ""
+      - '&f - Pour accéder'
+    left_click_commands:
+      - "[console] warp newhorizon %player_name%"
+
+  'resource':
+    material: itemsadder-newhorizon:empty
+    slots: 
+      - 12
+      - 13
+      - 14
+      - 21
+      - 22
+      - 23
+    display_name: '&aCollecte'
+    lore:
+      - '&fInformation:'
+      - ' &f∙ Accédez au monde'
+      - ' &f∙ ressource.'
+      - ""
+      - ' &f∙ PVP : &aActivé'
+      - ' &f∙ Perte d''inventaire : &aActivé'
+      - ""
+      - '&f - Pour accéder'
+    left_click_commands:
+      - "[console] warp resource %player_name%"
+
+  'home':
+    material: itemsadder-newhorizon:empty
+    slots: 
+      - 15
+      - 16
+      - 17
+      - 24
+      - 25
+      - 26
+    display_name: '&6Maison'
+    lore:
+      - '&fInformation:'
+      - ' &f∙ Téléporter vous'
+      - ' &f∙ à votre maison.'
+      - ""
+      - '&f - Pour accéder'
+      - '&f - Définir votre maison'
+    left_click_commands:
+      - "[player] home"
+    right_click_commands:
+      - "[player] sethome"
+      - "[close]"

@@ -1,0 +1,158 @@
+
+join-allay:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=join_allay;d=false} @self ~onSpawn
+  - modelplayerskin{mid=join_allay;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-join-allay} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+join-appear:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=join_appear;d=false} @self ~onSpawn
+  - modelplayerskin{mid=join_appear;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-join-appear} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+
+
+death-blackhole: 
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=death_blackhole;d=false} @self ~onSpawn
+  - modelplayerskin{mid=death_blackhole;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-death-blackhole} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+death-sword:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=death_sword;d=false} @self ~onSpawn
+  - modelplayerskin{mid=death_sword;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-death-sword} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+
+leave-dighole:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=leave_dighole;d=false} @self ~onSpawn
+  - modelplayerskin{mid=leave_dighole;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-leave-dighole} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+leave-disappear:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=leave_disappear;d=false} @self ~onSpawn
+  - modelplayerskin{mid=leave_disappear;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-leave-disappear} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+respawn-fall:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=respawn_fall;d=false} @self ~onSpawn
+  - modelplayerskin{mid=respawn_fall;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-respawn-fall} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+respawn-whitehole:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=respawn_whitehole;d=false} @self ~onSpawn
+  - modelplayerskin{mid=respawn_whitehole;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-respawn-whitehole} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+ban-banned_text: 
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=ban_banned;d=false} @self ~onSpawn
+  - modelplayerskin{mid=ban_banned;} @PIR{r=2;sort=NEAREST;limit=1} ~onSpawn
+  - skill{s=anim-ban-banned_text} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+#czTBlVVzB3QJt2UxUVOshjS4U1UysmaORTVU1EejRUTwUleURXdSFjWQp3Tnh3QKRFZBVGO

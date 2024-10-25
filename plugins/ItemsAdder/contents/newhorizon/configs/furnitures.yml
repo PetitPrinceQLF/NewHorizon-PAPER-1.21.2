@@ -1,0 +1,1298 @@
+info:
+  namespace: newhorizon
+items:
+  wooden_chair_acacia_variant:
+    display_name: "Chaise en Acacia"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_acacia_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_birch_variant:
+    display_name: "Chaise en Bouleau"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_birch_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_cherry_variant:
+    display_name: "Chaise en Cerisier"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_cherry_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_crimson_variant:
+    display_name: "Chaise en Bois Cramoisi"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_crimson_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_dark_oak_variant:
+    display_name: "Chaise en Chêne Sombre"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_dark_oak_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_jungle_variant:
+    display_name: "Chaise en Bois de la Jungle"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_jungle_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_mangrove_variant:
+    display_name: "Chaise en Palétuvier"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_mangrove_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_oak_variant:
+    display_name: "Chaise en Chêne"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_oak_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: false
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_spruce_variant:
+    display_name: "Chaise en Épicéa"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_spruce_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_chair_warped_variant:
+    display_name: "Chaise en Bois Altéré"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/chair/wooden_chair_warped_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.5
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_closet_acacia_variant:
+    display_name: "Placard en Acacia"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_acacia_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_birch_variant:
+    display_name: "Placard en Bouleau"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_birch_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_cherry_variant:
+    display_name: "Placard en Cerisier"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_cherry_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_crimson_variant:
+    display_name: "Placard en Bois Cramoisi"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_crimson_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_dark_oak_variant:
+    display_name: "Placard en Chêne Sombre"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_dark_oak_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_jungle_variant:
+    display_name: "Placard en bois Jungle"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_jungle_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_mangrove_variant:
+    display_name: "Placard en bois Mangrove"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_mangrove_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_oak_variant:
+    display_name: "Placard en bois Chêne"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_oak_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_spruce_variant:
+    display_name: "Placard en bois Épicéa"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_spruce_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+  wooden_closet_warped_variant:
+    display_name: "Placard en bois Distordu"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/closet/wooden_closet_warped_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          width_offset: 1
+
+  wooden_couch_acacia_variant:
+    display_name: "Canapé en bois Acacia"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_acacia_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+  wooden_couch_birch_variant:
+    display_name: "Canapé en bois Bouleau"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_birch_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+  wooden_couch_cherry_variant:
+    display_name: "Canapé en bois Cerisier"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_cherry_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+  wooden_couch_crimson_variant:
+    display_name: "Canapé en bois Carmin"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_crimson_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+  wooden_couch_dark_oak_variant:
+    display_name: "Canapé en bois Chêne Noir"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_dark_oak_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+  wooden_couch_jungle_variant:
+    display_name: "Canapé en bois Jungle"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_jungle_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+  wooden_couch_mangrove_variant:
+    display_name: "Canapé en bois Mangrove"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_mangrove_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+  wooden_couch_oak_variant:
+    display_name: "Canapé en bois Chêne"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_oak_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+  wooden_couch_spruce_variant:
+    display_name: "Canapé en bois Épicéa"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_spruce_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+  wooden_couch_warped_variant:
+    display_name: "Canapé en Bois Déformé"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: LEATHER_HORSE_ARMOR
+      model_path: furnitures/wooden_furnitures/couch/wooden_couch_warped_variant
+    behaviours:
+      furniture_sit:
+        sit_height: 0.44
+        sit_all_solid_blocks: true
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 1
+
+  wooden_drawer_acacia_variant:
+    display_name: "Tiroir en Bois Acacia"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_acacia_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_birch_variant:
+    display_name: "Tiroir en Bois Bouleau"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_birch_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_cherry_variant:
+    display_name: "Tiroir en Bois Cerisier"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_cherry_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_crimson_variant:
+    display_name: "Tiroir en Bois Crimson"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_crimson_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_dark_oak_variant:
+    display_name: "Tiroir en Bois Chêne Foncé"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_dark_oak_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_jungle_variant:
+    display_name: "Tiroir en Bois Jungle"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_jungle_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_mangrove_variant:
+    display_name: "Tiroir en Bois Mangrove"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_mangrove_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_oak_variant:
+    display_name: "Tiroir en Bois Chêne"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_oak_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_spruce_variant:
+    display_name: "Tiroir en Bois Épicéa"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_spruce_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_drawer_warped_variant:
+    display_name: "Tiroir en Bois Déformé"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/drawer/wooden_drawer_warped_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+
+  wooden_large_table_acacia_variant:
+    display_name: "Grande Table en Bois Acacia"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_acacia_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_birch_variant:
+    display_name: "Grande Table en Bois Bouleau"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_birch_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_cherry_variant:
+    display_name: "Grande Table en Bois Cerisier"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_cherry_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_crimson_variant:
+    display_name: "Grande Table en Bois Crimson"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_crimson_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_dark_oak_variant:
+    display_name: "Grande Table en Bois Chêne Foncé"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_dark_oak_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_jungle_variant:
+    display_name: "Grande Table en Bois Jungle"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_jungle_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_mangrove_variant:
+    display_name: "Grande Table en Bois Mangrove"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_mangrove_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_oak_variant:
+    display_name: "Grande Table en Bois Chêne"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_oak_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_spruce_variant:
+    display_name: "Grande Table en Bois Épicéa"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_spruce_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_large_table_warped_variant:
+    display_name: "Grande Table en Bois Déformé"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/large_table/wooden_large_table_warped_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+
+  wooden_table_acacia_variant:
+    display_name: "Table en Bois Acacia"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_acacia_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_birch_variant:
+    display_name: "Table en Bois Bouleau"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_birch_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_cherry_variant:
+    display_name: "Table en Bois Cerisier"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_cherry_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_crimson_variant:
+    display_name: "Table en Bois Crimson"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_crimson_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_dark_oak_variant:
+    display_name: "Table en Bois Chêne Foncé"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_dark_oak_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_jungle_variant:
+    display_name: "Table en Bois Jungle"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_jungle_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_mangrove_variant:
+    display_name: "Table en Bois Mangrove"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_mangrove_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_oak_variant:
+    display_name: "Table en Bois Chêne"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_oak_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_spruce_variant:
+    display_name: "Table en Bois Épicéa"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_spruce_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+  wooden_table_warped_variant:
+    display_name: "Table en Bois Déformé"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/wooden_furnitures/table/wooden_table_warped_variant
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+
+#Truc
+  food_truck:
+    display_name: "Food truck"
+    lore:
+        - '&f'
+    resource:
+      generate: false
+      material: PAPER
+      model_path: furnitures/food_truck
+    behaviours:
+      furniture:
+        solid: true
+        entity: item_frame
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
