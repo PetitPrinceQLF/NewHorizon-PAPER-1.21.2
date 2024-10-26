@@ -10,6 +10,49 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    spawn:
+        min: {x: 24, y: 100, z: -11}
+        max: {x: 44, y: 110, z: 12}
+        members: {}
+        flags:
+            mycelium-spread: deny
+            use: allow
+            invincible: allow
+            snow-fall: deny
+            leaf-decay: deny
+            chest-access: allow
+            firework-damage: deny
+            sculk-growth: deny
+            coral-fade: deny
+            snowman-trails: deny
+            rock-growth: deny
+            entity-painting-destroy: deny
+            ravager-grief: deny
+            mushroom-growth: deny
+            use-anvil: deny
+            ice-form: deny
+            enderman-grief: deny
+            pvp: allow
+            deny-spawn: ['minecraft:skeleton', 'minecraft:bat', 'minecraft:wandering_trader',
+                'minecraft:witch', 'minecraft:wither_skeleton', 'minecraft:pig', 'minecraft:llama',
+                'minecraft:sheep', 'minecraft:trader_llama', 'minecraft:enderman',
+                'minecraft:cow', 'minecraft:spider', 'minecraft:chicken', 'minecraft:zombie',
+                'minecraft:creeper', 'minecraft:drowned', 'minecraft:zombie_villager', 'minecraft:phantom']
+            crop-growth: deny
+            creeper-explosion: deny
+            soil-dry: deny
+            vine-growth: deny
+            copper-fade: deny
+            fall-damage: deny
+            item-frame-rotation: deny
+            snow-melt: deny
+            lava-flow: deny
+            tnt: deny
+            entity-item-frame-destroy: deny
+            grass-growth: deny
+        owners: {}
+        type: cuboid
+        priority: 50
     newhorizon:
         min: {x: 8, y: -64, z: -20}
         max: {x: 30, y: 1023, z: 12}
@@ -29,15 +72,15 @@ regions:
             mob-damage: allow
             block-break: allow
             entity-painting-destroy: allow
-            use-anvil: allow
             respawn-anchors: allow
+            use-anvil: allow
             enderman-grief: deny
             pvp: allow
             deny-spawn: ['minecraft:skeleton', 'minecraft:bat', 'minecraft:wandering_trader',
                 'minecraft:witch', 'minecraft:wither_skeleton', 'minecraft:pig', 'minecraft:llama',
                 'minecraft:sheep', 'minecraft:trader_llama', 'minecraft:enderman',
                 'minecraft:cow', 'minecraft:spider', 'minecraft:chicken', 'minecraft:zombie',
-                'minecraft:creeper', 'minecraft:drowned', 'minecraft:zombie_villager']
+                'minecraft:creeper', 'minecraft:drowned', 'minecraft:zombie_villager', 'minecraft:phantom']
             mob-spawning: allow
             block-place: allow
             crop-growth: allow
@@ -50,11 +93,11 @@ regions:
             copper-fade: allow
             build: allow
             fall-damage: allow
-            item-pickup: allow
             item-frame-rotation: allow
+            item-pickup: allow
             damage-animals: allow
-            tnt: allow
             lava-flow: allow
+            tnt: allow
             entity-item-frame-destroy: allow
         owners: {}
         type: cuboid
