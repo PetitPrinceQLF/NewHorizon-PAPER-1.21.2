@@ -20,6 +20,6 @@ Icon:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: '{"text":"spawn_egg","italic":false,"color":"white"}'
-      custom-model-data: 10127
+      display-name: '{"text":"Pegasus","italic":false,"color":"white"}'
+      custom-model-data: 10129
       custom: H4sIAAAAAAAA/w3IQQqAMAwEwMVTjY+UYJaaQ9OSCgVfr3McAQTiD9tUM2bB5oZjDl3BPFlrwR7a+M9FSHDdPf3tAXxIxdDePAAAAA==
